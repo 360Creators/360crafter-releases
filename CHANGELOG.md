@@ -4,7 +4,7 @@
 
 ### Rich text editor (improved)
 
-![](https://raw.githubusercontent.com/360Creators/360crafter-releases/changelog/changelog/assets/v0.1.16/great-lounge-4.png)
+![](https://raw.githubusercontent.com/360Creators/360crafter-releases/changelog/assets/v0.1.16/great-lounge-4.png)
 
 Text hotspots and the text skin component now take rich text instead of a single
 styled string. One text component can hold a heading and its description, so
@@ -18,22 +18,22 @@ there's no need to stack two components.
 
 ### Multi-select fields
 
-![](https://raw.githubusercontent.com/360Creators/360crafter-releases/changelog/changelog/assets/v0.1.16/multi-select.png)
+![](https://raw.githubusercontent.com/360Creators/360crafter-releases/changelog/assets/v0.1.16/multi-select.png)
 
 The editor's `Single Select` field is now a `Select` field, with an option to
 allow multiple values. Can also be used inside the Rich text editor (un)ordered lists.
 
 ### Create buttons (improved)
 
-![](https://raw.githubusercontent.com/360Creators/360crafter-releases/changelog/changelog/assets/v0.1.16/button.png)
-![](https://raw.githubusercontent.com/360Creators/360crafter-releases/changelog/changelog/assets/v0.1.16/button-library-3-2.png)
+![](https://raw.githubusercontent.com/360Creators/360crafter-releases/changelog/assets/v0.1.16/button.png)
+![](https://raw.githubusercontent.com/360Creators/360crafter-releases/changelog/assets/v0.1.16/button-library-3-2.png)
 
 An `auto`-width box used to always stretch to `100%`, so text + icon buttons didn't really work.
 This text+icon button has also been added to the built-in library.
 
 ### CMS List pagination
 
-![53 panoramas divided by 8 means 6 pages with 8 items and the 7th page with 6 items.](https://raw.githubusercontent.com/360Creators/360crafter-releases/changelog/changelog/assets/v0.1.16/pagination-2.png)
+![53 panoramas divided by 8 means 6 pages with 8 items and the 7th page with 6 items.](https://raw.githubusercontent.com/360Creators/360crafter-releases/changelog/assets/v0.1.16/pagination-2.png)
 
 Loading all items at once may reduce loading speed. With pagination you split up the total amount by a number of your choice and it will show you options to see the next or previous sub-list.
 
