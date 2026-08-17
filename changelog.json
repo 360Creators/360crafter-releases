@@ -1,0 +1,436 @@
+{
+  "markdown": "https://360creators.github.io/360crafter-releases/changelog.md",
+  "versions": [
+    {
+      "version": "0.1.16",
+      "date": null,
+      "cards": [
+        {
+          "id": "0.1.16/rich-text-editor",
+          "title": "Rich text editor",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "Text hotspots and the text skin component now take rich text instead of a single\nstyled string. One text component can hold a heading and its description, so\nthere's no need to stack two components.\n\n- Dynamic titles and descriptions\n- Ordered and unordered lists\n- Per-heading style overrides\n- Turn a link into an action — for example, move the camera to a hotspot from a\n  list",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.1.16/image.png",
+              "caption": ""
+            },
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.1.16/great-lounge-4.png",
+              "caption": ""
+            },
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.1.16/image-3.png",
+              "caption": ""
+            },
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.1.16/image-4.png",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "id": "0.1.16/multi-select-fields",
+          "title": "Multi-select fields",
+          "badge": "New",
+          "kind": "feature",
+          "body": "The editor's `Single Select` field is now a `Select` field, with an option to\nallow multiple values. Can also be used inside the Rich text editor (un)ordered lists.",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.1.16/multi-select.png",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "id": "0.1.16/text-button-with-icon",
+          "title": "Text button with icon",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "An `auto`-width box used to always stretch to `100%`, so text + icon buttons didn't really work.\nThis text+icon button has also been added to the built-in library.",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.1.16/button.png",
+              "caption": ""
+            },
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.1.16/button-library-3-2.png",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "id": "0.1.16/cms-list-pagination",
+          "title": "CMS List pagination",
+          "badge": "New",
+          "kind": "feature",
+          "body": "Loading all items at once may reduce loading speed. With pagination you split up the total amount by a number of your choice and it will show you options to see the next or previous sub-list.",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.1.16/pagination-2.png",
+              "caption": "53 panoramas divided by 8 means 6 pages with 8 items and the 7th page with 6 items."
+            }
+          ]
+        },
+        {
+          "id": "0.1.16/fixes",
+          "title": "Fixes",
+          "badge": "Fixed",
+          "kind": "fixes",
+          "body": "- Column auto-flow grids collapsed their first item into a zero-width `1fr`\n  track, drawing item 1 underneath item 2. Implicit columns are now sized\n  correctly.\n- \"Navigate to current CMS item\" failed on a Box template because the click\n  handler received an unbound component. Row data is now carried at every\n  nesting depth.\n- CMS field selectors resolve through the full ancestor chain, so an image nested\n  inside a box inside a CMS List still shows its bindings.\n- Deleting a craftspace no longer immediately recreates a default one.",
+          "images": []
+        }
+      ]
+    },
+    {
+      "version": "0.1.15",
+      "date": "2026-08-15",
+      "cards": [
+        {
+          "id": "0.1.15/skin-component-library",
+          "title": "Skin component library",
+          "badge": "New",
+          "kind": "feature",
+          "body": "Save any component from the tree to a library and drop it into another skin or\nproject, instead of rebuilding it each time. Popup is now a built-in component.",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.1.15/image.png",
+              "caption": ""
+            },
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.1.15/image-2.png",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "id": "0.1.15/multi-level-menus",
+          "title": "Multi-level menus",
+          "badge": "New",
+          "kind": "feature",
+          "body": "Group a CMS List by a field and the Skin renders it as a nested menu, so a tour\nwith dozens of panoramas can be navigated by area or floor.",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.1.15/image-3.png",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "id": "0.1.15/callout-pin-and-origin-controls",
+          "title": "Callout pin and origin controls",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "Callouts can be pinned and given an origin point, so they stay attached where you\nwant them as the camera moves. Panoramas also get their own CMS tab, and the CMS\ngrid can be edited in place.",
+          "images": []
+        },
+        {
+          "id": "0.1.15/fixes",
+          "title": "Fixes",
+          "badge": "Fixed",
+          "kind": "fixes",
+          "body": "- A custom view was ignored on navigation hotspots using the Fade or None\n  transition; the camera now lands where you set it.",
+          "images": []
+        }
+      ]
+    },
+    {
+      "version": "0.1.14",
+      "date": "2026-08-11",
+      "cards": [
+        {
+          "id": "0.1.14/panorama-presets",
+          "title": "Panorama presets",
+          "badge": "New",
+          "kind": "feature",
+          "body": "Save the settings you use most as a preset and apply them to new panorama in one\nstep. Such as settings for Indoor panoramas and Outdoor panoramas.",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.1.14/image.png",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "id": "0.1.14/hotspot-editor-controls",
+          "title": "Hotspot editor controls",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "Reworked panorama and transform controls in the hotspot editor, plus tidier\npreset controls for hotspots and skins.",
+          "images": []
+        },
+        {
+          "id": "0.1.14/min-and-max-fov-panoramas",
+          "title": "Min and max FOV panoramas",
+          "badge": "New",
+          "kind": "feature",
+          "body": "Panoramas can carry their own minimum and maximum field of view.",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.1.14/image-2.png",
+              "caption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "version": "0.1.13",
+      "date": "2026-08-07",
+      "cards": [
+        {
+          "id": "0.1.13/fixes",
+          "title": "Fixes",
+          "badge": "Fixed",
+          "kind": "fixes",
+          "body": "- On Windows, dragging inside a panorama could start a native image drag instead\n  of turning the camera.",
+          "images": []
+        }
+      ]
+    },
+    {
+      "version": "0.1.12",
+      "date": "2026-08-06",
+      "cards": [
+        {
+          "id": "0.1.12/cms-grid-toolbar",
+          "title": "CMS grid toolbar",
+          "badge": "New",
+          "kind": "feature",
+          "body": "Hide, filter, group and sort columns straight from the grid toolbar, with field\ntype icons and collapsible groups.",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.1.12/image.png",
+              "caption": ""
+            },
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.1.12/image-2.png",
+              "caption": ""
+            },
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.1.12/image-3.png",
+              "caption": ""
+            },
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.1.12/image-4.png",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "id": "0.1.12/colour-coded-filters-and-named-views",
+          "title": "Colour-coded filters and named views",
+          "badge": "New",
+          "kind": "feature",
+          "body": "Filters and columns can be colour-coded, and a set of filters, sorting and\nvisible columns can be saved as a named view to switch between.",
+          "images": []
+        },
+        {
+          "id": "0.1.12/breakpoints-for-every-property",
+          "title": "Breakpoints for every property",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "Any property can now differ per breakpoint, not just a chosen few.",
+          "images": []
+        },
+        {
+          "id": "0.1.12/export-dialog",
+          "title": "Export dialog",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "Before exporting, the dialog reviews which data connections need syncing, so a\ntour doesn't ship with stale CMS data.",
+          "images": []
+        },
+        {
+          "id": "0.1.12/fixes",
+          "title": "Fixes",
+          "badge": "Fixed",
+          "kind": "fixes",
+          "body": "- `Cmd+Z` undo in the CMS grid.\n- Custom CMS tables are now included in project backups.",
+          "images": []
+        }
+      ]
+    },
+    {
+      "version": "0.1.11",
+      "date": "2026-08-03",
+      "cards": [
+        {
+          "id": "0.1.11/cms-quick-edit-in-the-properties-panel",
+          "title": "CMS quick-edit in the properties panel",
+          "badge": "New",
+          "kind": "feature",
+          "body": "A hotspot's CMS fields can be edited from its properties panel, without switching\nto the CMS.",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.1.11/image-2.png",
+              "caption": ""
+            },
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.1.11/image.png",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "id": "0.1.11/callout-reveal-animations",
+          "title": "Callout reveal animations",
+          "badge": "New",
+          "kind": "feature",
+          "body": "Callouts can animate into view instead of appearing instantly.",
+          "images": []
+        },
+        {
+          "id": "0.1.11/callout-rendering",
+          "title": "Callout rendering",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "Sharper callout rendering, and linked CMS fields keep their formatting when shown\nin a callout.",
+          "images": []
+        }
+      ]
+    },
+    {
+      "version": "0.1.9",
+      "date": "2026-07-31",
+      "cards": [
+        {
+          "id": "0.1.9/linked-hotspots-and-camera-action-timeline",
+          "title": "Linked hotspots and camera action timeline",
+          "badge": "New",
+          "kind": "feature",
+          "body": "Link hotspots together and sequence camera moves on a timeline, to guide visitors\nthrough a tour rather than leaving every move to them.",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.1.9/image-2.png",
+              "caption": ""
+            },
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.1.9/image.png",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "id": "0.1.9/fixes",
+          "title": "Fixes",
+          "badge": "Fixed",
+          "kind": "fixes",
+          "body": "- Windows installer created its shortcuts unreliably.\n- Mac builds occasionally failed to notarize, which could block an update.",
+          "images": []
+        }
+      ]
+    },
+    {
+      "version": "0.1.8",
+      "date": "2026-07-31",
+      "cards": [
+        {
+          "id": "0.1.8/fixes",
+          "title": "Fixes",
+          "badge": "Fixed",
+          "kind": "fixes",
+          "body": "- Windows installer shortcut hook.",
+          "images": []
+        }
+      ]
+    },
+    {
+      "version": "0.1.7",
+      "date": "2026-07-31",
+      "cards": [
+        {
+          "id": "0.1.7/fixes",
+          "title": "Fixes",
+          "badge": "Fixed",
+          "kind": "fixes",
+          "body": "- Mac install reliability.",
+          "images": []
+        }
+      ]
+    },
+    {
+      "version": "0.1.6",
+      "date": "2026-07-31",
+      "cards": [
+        {
+          "id": "0.1.6/new-action-audio",
+          "title": "New action: audio",
+          "badge": "New",
+          "kind": "feature",
+          "body": "Play, pause and stop audio from any action, so a hotspot or skin button can\ncontrol narration or ambient sound.",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.1.6/image.png",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "id": "0.1.6/download-a-file-from-your-assets",
+          "title": "Download a file from your assets",
+          "badge": "New",
+          "kind": "feature",
+          "body": "Every asset in the library has a download button, so you can pull the original\nfile back out of a project.",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.1.6/image-2.png",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "id": "0.1.6/optional-desktop-shortcut-on-windows",
+          "title": "Optional desktop shortcut on Windows",
+          "badge": "New",
+          "kind": "feature",
+          "body": "The Windows installer now asks whether to create a desktop shortcut.",
+          "images": []
+        }
+      ]
+    },
+    {
+      "version": "0.1.5",
+      "date": "2026-07-22",
+      "cards": [
+        {
+          "id": "0.1.5/fixes",
+          "title": "Fixes",
+          "badge": "Fixed",
+          "kind": "fixes",
+          "body": "- Outline buttons had a low-contrast hover state.",
+          "images": []
+        }
+      ]
+    },
+    {
+      "version": "0.1.4",
+      "date": "2026-07-21",
+      "cards": [
+        {
+          "id": "0.1.4/fixes",
+          "title": "Fixes",
+          "badge": "Fixed",
+          "kind": "fixes",
+          "body": "- Fixed a glitchy black stripe shape appearing on tablets and mobile devices\n- Fixed overusage of ram",
+          "images": []
+        }
+      ]
+    },
+    {
+      "version": "0.1.3",
+      "date": "2026-07-19",
+      "cards": [
+        {
+          "id": "0.1.3/public-beta-launch",
+          "title": "Public Beta Launch",
+          "badge": "Launch",
+          "kind": "feature",
+          "body": "It's been a while working hard on 360Crafter. Today I can proudly announce that the beta version of 360Crafter is available to download. I'm extremely excited and curious to hear opinions.",
+          "images": []
+        }
+      ]
+    }
+  ]
+}
