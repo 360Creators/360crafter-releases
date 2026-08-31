@@ -2,6 +2,88 @@
   "markdown": "https://360creators.github.io/360crafter-releases/changelog.md",
   "versions": [
     {
+      "version": "0.1.17",
+      "date": "2026-08-31",
+      "cards": [
+        {
+          "id": "0.1.17/compare-two-panoramas-side-by-side",
+          "title": "Compare two panoramas side by side",
+          "badge": "New",
+          "kind": "feature",
+          "body": "Put two views in one box and drag the divider between them to reveal more of\neither side. Both panes move together, so turning one turns the other — handy\nfor before-and-after shots of the same room.\n\n- The divider is styled like any other element in your skin\n- Dragging is smooth now: the images no longer flash or reload while you drag\n- Panoramas placed inside a skin can finally be dragged around with the mouse",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.1.17/image-4.png",
+              "caption": "Compare panoramas side by side"
+            },
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.1.17/image-5.png",
+              "caption": "Move divider around"
+            },
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.1.17/image-6.png",
+              "caption": "Insert it from the skin library \"Split Compare\""
+            }
+          ]
+        },
+        {
+          "id": "0.1.17/interactive-media-type-maps",
+          "title": "Interactive Media type: Maps",
+          "badge": "New",
+          "kind": "feature",
+          "body": "The separate Maps page is gone. Everything it did is now part of a map you add\nto a tour, so you set it up in the same place you use it.\n\n- Search for a place by name and the map flies straight to it\n- Set Location can open on one of your own tour maps, keeping its style and\n  starting view\n- The map pin shows up properly again instead of a broken image",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.1.17/image-7.png",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "id": "0.1.17/auto-linking-panoramas-navigation-hotspots",
+          "title": "Auto-linking panoramas navigation hotspots",
+          "badge": "New",
+          "kind": "feature",
+          "body": "If your panoramas have GPS coordinates, one button creates the links between\nthem, and another removes them again. Assuming that the north is set correctly on each panorama.\nIf your panoramas do not have GPS, you can drag them on the map and it will assign the relevant GPS coördinates to them.\n\n- Routes are drawn as dashed lines with arrows showing which way each one runs\n- Two-way routes sit side by side so you can see both\n- Click a line to remove that one direction",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.1.17/image-8.png",
+              "caption": ""
+            },
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.1.17/image-9.png",
+              "caption": "Inside panorama settings you can Set North."
+            }
+          ]
+        },
+        {
+          "id": "0.1.17/rounded-corners-on-polygon-hotspots",
+          "title": "Rounded corners on polygon hotspots",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "Polygon hotspots get a Corner radius setting, so a hard-edged outline can be\nsoftened into a rounded one. Corners stay evenly rounded whether they're sharp\nor wide, and the points you drew stay where you put them.",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.1.17/image-10.png",
+              "caption": "Rounded edges around the polygon (new)"
+            },
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.1.17/image-11.png",
+              "caption": "Before this update, without rounded edges"
+            }
+          ]
+        },
+        {
+          "id": "0.1.17/fixes",
+          "title": "Fixes",
+          "badge": "Fixed",
+          "kind": "fixes",
+          "body": "- Options you typed into a CMS select field were thrown away if you clicked Save\n  without pressing Enter first. They're kept now.\n- Moving a shape hotspot left its outline and handles behind until you let go of\n  the mouse. They follow along as you drag.\n- The loading screen now accepts components dropped inside it, like other\n  containers.\n- Setting north on a project stored on your own computer no longer fails.\n- Map thumbnails stop drifting. A map’s card in the media list used to follow the camera live while you were panning and zooming around. Now it always shows the view you deliberately saved with “Set View”.\n- Backup of large projects works now as well which gave an error before \"Array buffer allocation\".",
+          "images": []
+        }
+      ]
+    },
+    {
       "version": "0.1.16",
       "date": null,
       "cards": [

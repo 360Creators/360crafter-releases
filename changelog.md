@@ -1,5 +1,67 @@
 # Changelog
 
+## 0.1.17
+
+### Compare two panoramas side by side
+
+![Compare panoramas side by side](https://360creators.github.io/360crafter-releases/assets/v0.1.17/image-4.png)
+![Move divider around](https://360creators.github.io/360crafter-releases/assets/v0.1.17/image-5.png)
+![Insert it from the skin library "Split Compare"](https://360creators.github.io/360crafter-releases/assets/v0.1.17/image-6.png)
+
+Put two views in one box and drag the divider between them to reveal more of
+either side. Both panes move together, so turning one turns the other — handy
+for before-and-after shots of the same room.
+
+- The divider is styled like any other element in your skin
+- Dragging is smooth now: the images no longer flash or reload while you drag
+- Panoramas placed inside a skin can finally be dragged around with the mouse
+
+### Interactive Media type: Maps
+
+![](https://360creators.github.io/360crafter-releases/assets/v0.1.17/image-7.png)
+
+The separate Maps page is gone. Everything it did is now part of a map you add
+to a tour, so you set it up in the same place you use it.
+
+- Search for a place by name and the map flies straight to it
+- Set Location can open on one of your own tour maps, keeping its style and
+  starting view
+- The map pin shows up properly again instead of a broken image
+
+### Auto-linking panoramas navigation hotspots
+
+![](https://360creators.github.io/360crafter-releases/assets/v0.1.17/image-8.png)
+![Inside panorama settings you can Set North.](https://360creators.github.io/360crafter-releases/assets/v0.1.17/image-9.png)
+
+If your panoramas have GPS coordinates, one button creates the links between
+them, and another removes them again. Assuming that the north is set correctly on each panorama.
+If your panoramas do not have GPS, you can drag them on the map and it will assign the relevant GPS coördinates to them.
+
+- Routes are drawn as dashed lines with arrows showing which way each one runs
+- Two-way routes sit side by side so you can see both
+- Click a line to remove that one direction
+
+### Rounded corners on polygon hotspots (improved)
+
+![Rounded edges around the polygon (new)](https://360creators.github.io/360crafter-releases/assets/v0.1.17/image-10.png)
+![Before this update, without rounded edges](https://360creators.github.io/360crafter-releases/assets/v0.1.17/image-11.png)
+
+Polygon hotspots get a Corner radius setting, so a hard-edged outline can be
+softened into a rounded one. Corners stay evenly rounded whether they're sharp
+or wide, and the points you drew stay where you put them.
+
+### Fixes
+
+- Options you typed into a CMS select field were thrown away if you clicked Save
+  without pressing Enter first. They're kept now.
+- Moving a shape hotspot left its outline and handles behind until you let go of
+  the mouse. They follow along as you drag.
+- The loading screen now accepts components dropped inside it, like other
+  containers.
+- Setting north on a project stored on your own computer no longer fails.
+- Map thumbnails stop drifting. A map’s card in the media list used to follow the camera live while you were panning and zooming around. Now it always shows the view you deliberately saved with “Set View”.
+- Backup of large projects works now as well which gave an error before "Array buffer allocation".
+
 ## 0.1.16
 
 ### Rich text editor (improved)
