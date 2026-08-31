@@ -2,6 +2,20 @@
   "markdown": "https://360creators.github.io/360crafter-releases/changelog.md",
   "versions": [
     {
+      "version": "0.1.18",
+      "date": "2026-08-31",
+      "cards": [
+        {
+          "id": "0.1.18/presenting-360crafter-updates",
+          "title": "Presenting 360Crafter updates",
+          "badge": "New",
+          "kind": "feature",
+          "body": "Presenting the updates nicely in this new 360Crafter updates window.\n\n- The window now also opens once after an update has installed, so you can read\n  what changed in the version you just got — not only before you download it",
+          "images": []
+        }
+      ]
+    },
+    {
       "version": "0.1.17",
       "date": "2026-08-31",
       "cards": [

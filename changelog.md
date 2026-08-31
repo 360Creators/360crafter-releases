@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.18
+
+### Presenting 360Crafter updates
+
+Presenting the updates nicely in this new 360Crafter updates window.
+
+- The window now also opens once after an update has installed, so you can read
+  what changed in the version you just got — not only before you download it
+
 ## 0.1.17
 
 ### Compare two panoramas side by side
