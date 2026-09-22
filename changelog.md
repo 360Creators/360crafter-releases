@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.20
+
+### Fixes
+
+- 0.1.19 is now available on Mac too — the Mac download was held back by a
+  signing problem, now fixed
+
 ## 0.1.19
 
 ### Faster panorama tiles, without the freeze

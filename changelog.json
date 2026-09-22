@@ -2,6 +2,20 @@
   "markdown": "https://360creators.github.io/360crafter-releases/changelog.md",
   "versions": [
     {
+      "version": "0.1.20",
+      "date": "2026-09-22",
+      "cards": [
+        {
+          "id": "0.1.20/fixes",
+          "title": "Fixes",
+          "badge": "Fixed",
+          "kind": "fixes",
+          "body": "- 0.1.19 is now available on Mac too — the Mac download was held back by a\n  signing problem, now fixed",
+          "images": []
+        }
+      ]
+    },
+    {
       "version": "0.1.19",
       "date": "2026-09-22",
       "cards": [
