@@ -1,5 +1,21 @@
 # Changelog
 
+## 0.1.19
+
+### Faster panorama tiles, without the freeze
+
+Big panoramas used to lock up the whole app while their tiles were generated —
+a 20k panorama could leave you staring at a spinning cursor for a very long
+time. Tiles are now made in the background, so you can keep working while they
+build, and they finish in seconds instead.
+
+- Importing several panoramas at once no longer piles the work up in parallel;
+  they're processed one after another
+- Exporting a tour with missing tiles no longer fails: the tiles are generated
+  first, Background processes opens so you can follow along, and the export
+  carries on by itself
+- New projects start with **Compatible tiled panoramas** switched on
+
 ## 0.1.18
 
 ### Presenting 360Crafter updates

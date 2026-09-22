@@ -2,6 +2,20 @@
   "markdown": "https://360creators.github.io/360crafter-releases/changelog.md",
   "versions": [
     {
+      "version": "0.1.19",
+      "date": "2026-09-22",
+      "cards": [
+        {
+          "id": "0.1.19/faster-panorama-tiles-without-the-freeze",
+          "title": "Faster panorama tiles, without the freeze",
+          "badge": "New",
+          "kind": "feature",
+          "body": "Big panoramas used to lock up the whole app while their tiles were generated —\na 20k panorama could leave you staring at a spinning cursor for a very long\ntime. Tiles are now made in the background, so you can keep working while they\nbuild, and they finish in seconds instead.\n\n- Importing several panoramas at once no longer piles the work up in parallel;\n  they're processed one after another\n- Exporting a tour with missing tiles no longer fails: the tiles are generated\n  first, Background processes opens so you can follow along, and the export\n  carries on by itself\n- New projects start with **Compatible tiled panoramas** switched on",
+          "images": []
+        }
+      ]
+    },
+    {
       "version": "0.1.18",
       "date": "2026-08-31",
       "cards": [
