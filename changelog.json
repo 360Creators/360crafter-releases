@@ -2,6 +2,126 @@
   "markdown": "https://360creators.github.io/360crafter-releases/changelog.md",
   "versions": [
     {
+      "version": "0.1.22",
+      "date": "2026-09-25",
+      "cards": [
+        {
+          "id": "0.1.22/cut-people-and-objects-out-of-a-hotspot-with-masks",
+          "title": "Cut people and objects out of a hotspot with Masks",
+          "badge": "New",
+          "kind": "feature",
+          "body": "A panorama is a flat photograph, so a video or a box laid onto a wall paints\nover anything standing in front of it — a person, a pillar, a kiosk. The new\n**Mask** section in the style panel answers that: trace what should cover the\nhotspot and that shape is punched out of it, so the panorama behind shows\nthrough and the objects in the photo read as being in front again.\n\n- Press **+** and click around the object; click the first point again or press\n  Enter to close the shape, Esc to stop drawing, Backspace to take a point back\n- Click a shape to reshape it: drag a point, drag a midpoint to add one,\n  Alt-click to remove one, Backspace to delete the whole shape\n- Each corner rounds on its own — drag the handle beside a point, or use the\n  slider — so a shoulder can be soft while the floor line stays sharp\n- Works on video hotspots, HTML hotspots and polygons; several shapes can be\n  traced on one hotspot and each gets its own colour in the list\n- The shape is stored on the surface itself, so it keeps its place when the\n  hotspot is moved, resized, tilted or fitted to new corners, and travels to\n  every linked placement with the rest of the style\n- **Done** leaves masking, **Clear mask** removes every shape",
+          "images": []
+        },
+        {
+          "id": "0.1.22/style-a-linked-hotspot-per-panorama",
+          "title": "Style a linked hotspot per panorama",
+          "badge": "New",
+          "kind": "feature",
+          "body": "A hotspot linked across several panoramas shares one style, so changing its\ncolour changed it everywhere. It now has two style chips: **All linked · N**,\nwhich edits every placement the way it always did, and **This panorama**, which\nstores overrides on the placement you have selected.\n\n- Overrides are drawn over the shared style in the editor, the viewer and the\n  export, so one panorama can carry its own colour, size or position\n- The chip's × resets that panorama back to the shared style\n- Resize handles follow whichever chip is selected\n- Bulk edits, saves and newly created placements all keep each panorama's own\n  overrides instead of copying one placement's style over the rest",
+          "images": []
+        },
+        {
+          "id": "0.1.22/group-and-sort-the-panorama-list",
+          "title": "Group and sort the panorama list",
+          "badge": "New",
+          "kind": "feature",
+          "body": "The panorama list in the scene hierarchy gets a **Sort by** menu next to the\nexisting Group by, so a long tour can be put in the order you want to read it\nin rather than the order it was imported.\n\n- Sort by the panorama's name or by any CMS field\n- Click the active field again to flip between ascending and descending\n- The choice is remembered, so the list opens the way you left it\n- Dragging to reorder is paused while a sort or grouping is on, since a drop\n  position says nothing about the stored order",
+          "images": []
+        },
+        {
+          "id": "0.1.22/repeat-a-hotspot-s-background-image",
+          "title": "Repeat a hotspot's background image",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "A hotspot's background image always tiled sideways, which printed the same\npicture several times across a plain uploaded image. There is now a **Repeat**\nsetting — No repeat, Horizontal, Vertical or Both — with a default that suits\nthe source.\n\n- A linked panorama's thumbnail still tiles horizontally, which is what lets the\n  degrees-based Offset scroll the image past the hotspot's edges\n- A plain uploaded image defaults to no repeat, so it is drawn once\n- Hover, active and visited states each take their own Repeat",
+          "images": []
+        },
+        {
+          "id": "0.1.22/the-editor-says-why-an-action-did-not-happen",
+          "title": "The editor says why an action did not happen",
+          "badge": "New",
+          "kind": "feature",
+          "body": "Some actions are refused rather than failed, and until now nothing said so. A\nsmall hint now appears right where you clicked, explaining the block and, where\nthere is one, offering the shortcut that clears it.\n\n- Deleting a hotspot that follows a panorama filter used to look like it worked,\n  then the hotspot came back the next time the link was reconciled. The delete\n  is now refused with a hint, and the hint's button opens **Link to Panoramas**\n  at the filter you have to remove first\n- Works for one hotspot or a whole selection, with the hint naming how many\n- Resizing while a mask is being drawn is blocked, and the hint points at the\n  **Done** button in the Mask section\n- **Unlink** on a selection breaks the link without touching the placements:\n  every panorama keeps the hotspot it already has, they just stop following one\n  definition",
+          "images": []
+        },
+        {
+          "id": "0.1.22/fixes",
+          "title": "Fixes",
+          "badge": "Fixed",
+          "kind": "fixes",
+          "body": "- Callout, Tooltip and Radar now show up on a hotspot when the values come from\n  its preset. They used to appear only when the hotspot carried values of its\n  own, so a preset-defined callout showed an empty section with a \"+\".\n- Deleting a hotspot's last action no longer silently shadows the actions it\n  inherits from its preset — the hotspot goes back to running the preset's\n  actions instead of quietly doing nothing.\n- A tilt solved by Fit Corners, or written by a drag in the viewer, no longer\n  resets itself the next time the hotspot's style is rebuilt by linking it,\n  attaching a preset or switching the editing scope.\n- Clearing a polygon's tooltip text puts the Tooltip section back on offer,\n  rather than leaving an empty one behind.",
+          "images": []
+        }
+      ]
+    },
+    {
+      "version": "0.1.21",
+      "date": null,
+      "cards": [
+        {
+          "id": "0.1.21/new-skin-component-video",
+          "title": "New skin component: video",
+          "badge": "New",
+          "kind": "feature",
+          "body": "The skin has a new **Video** component, so a clip can sit in a corner of the\nframe instead of out in the scene. It is set up exactly like a video hotspot:\npaste a URL or upload a file, and the same Chroma Key controls key a greenscreen\npresenter out onto the tour behind them.\n\n- Loop, Muted and Autoplay work as they do on a hotspot, with the same defaults\n- Key colour, Similarity, Smoothness and Spill are the hotspot's controls, so a\n  clip keyed in a panorama looks the same in the skin\n- **Pick In Viewer** takes the key colour straight off the clip on the canvas\n- Fit chooses whether the clip is letterboxed, cropped or stretched to its box\n- **Match clip shape** sizes the box to the clip, so a presenter is neither\n  cropped at the edges nor floating in empty space; an uploaded clip shapes its\n  box by itself as long as you have not resized it yet",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.1.21/image.png",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "id": "0.1.21/new-action-play-video",
+          "title": "New action: Play video",
+          "badge": "New",
+          "kind": "feature",
+          "body": "Actions have a new **Play Video** entry, so a clip no longer has to autoplay to\never run. Point it at a video component and pick Play, Pause, Stop or\nPlay / Pause.\n\n- Point it at a video component in the skin or at a video hotspot in a panorama\n- Put it on an icon or a box for a play button, or on the video itself so\n  clicking the presenter starts and pauses them\n- Hotspots, map pins and 3D models can drive a video too\n- A clip you paused stays paused while you move around the tour, instead of\n  restarting itself the next time the panorama is drawn\n- Play / Pause restarts a clip that has finished, so one button is enough\n- Stop rewinds to the first frame",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.1.21/image-2.png",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "id": "0.1.21/drop-a-hotspot-into-a-screen-wall-or-doorway-with-fit-corners",
+          "title": "Drop a hotspot into a screen, wall or doorway with Fit Corners",
+          "badge": "New",
+          "kind": "feature",
+          "body": "Putting a hotspot flat against something in the panorama used to mean nudging\nthe rotation on three axes and resizing until it looked right. **Fit Corners**,\nin the Transform section, turns the four corner handles into a perspective fit:\ndrag them onto the corners of a screen, a poster or a doorway and the hotspot's\nposition, rotation and size are all solved from where you put them.\n\n- The X, Y and Z rotation fields fill themselves in as you drag\n- The four corners are the whole shape, so a square hotspot can be fitted to a\n  widescreen frame — the aspect ratio lock is ignored while the mode is on\n- Works for HTML and video hotspots that are set to Fixed; switching one to\n  Floating turns the mode back off, since a floating hotspot faces the camera\n- A corner you drag somewhere no flat rectangle could reach simply stops\n  following, rather than folding the hotspot away\n- One undo takes the whole fit back",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.1.21/image-3.png",
+              "caption": ""
+            },
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.1.21/image-4.png",
+              "caption": ""
+            },
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.1.21/image-5.png",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "id": "0.1.21/drag-a-hotspot-anywhere-in-one-go",
+          "title": "Drag a hotspot anywhere in one go",
+          "badge": "New",
+          "kind": "feature",
+          "body": "Moving a hotspot to the other side of the room used to mean dropping it at the\nedge of the viewer, turning the view and picking it up again. Now the view turns\nfor you: hold the hotspot near an edge and the panorama follows, with the\nhotspot staying under your cursor.\n\n- Works at every edge — left and right turn the view, top and bottom tilt it\n- The closer you are to the edge, the faster it turns; move back in and it stops\n- Groups and polygons can be carried around the same way",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.1.21/image-6.png",
+              "caption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
       "version": "0.1.20",
       "date": "2026-09-22",
       "cards": [
