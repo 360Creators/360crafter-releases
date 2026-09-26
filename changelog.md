@@ -1,5 +1,29 @@
 # Changelog
 
+## 0.1.23
+
+### Each mask shape cuts or keeps (improved)
+
+A mask used to be a list of shapes that were all taken away, with one invert
+flag for the whole hotspot. Every shape now carries its own direction: **Cut**
+takes its area away, **Keep** fills it back in, and the shapes apply down the
+list — so a Keep traced inside a Cut brings the hotspot back through that gap.
+
+- Switch a shape between Cut and Keep in the mask list; the order in the list is
+  the order they are applied, so a Keep has to sit below the Cut it reopens
+- Lets one hotspot show through a doorway inside an area that is otherwise
+  masked out, which previously needed the shapes traced the other way round
+- Masks saved before this open unchanged, and the short-lived whole-mask invert
+  flag is cleared the next time the hotspot is saved
+
+### Fixes
+
+- Opening a project that uses a custom HTML hotspot preset no longer sends the
+  whole properties panel into the error screen. The preset's style scope was
+  looked up as if it were one of the builtin ones, which threw on every mount.
+- The error screen is no longer a dead end: alongside **Refresh Page** it now
+  offers **Back to Dashboard** and **Contact Support**.
+
 ## 0.1.22
 
 ### Cut people and objects out of a hotspot with Masks

@@ -2,6 +2,28 @@
   "markdown": "https://360creators.github.io/360crafter-releases/changelog.md",
   "versions": [
     {
+      "version": "0.1.23",
+      "date": "2026-09-26",
+      "cards": [
+        {
+          "id": "0.1.23/each-mask-shape-cuts-or-keeps",
+          "title": "Each mask shape cuts or keeps",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "A mask used to be a list of shapes that were all taken away, with one invert\nflag for the whole hotspot. Every shape now carries its own direction: **Cut**\ntakes its area away, **Keep** fills it back in, and the shapes apply down the\nlist — so a Keep traced inside a Cut brings the hotspot back through that gap.\n\n- Switch a shape between Cut and Keep in the mask list; the order in the list is\n  the order they are applied, so a Keep has to sit below the Cut it reopens\n- Lets one hotspot show through a doorway inside an area that is otherwise\n  masked out, which previously needed the shapes traced the other way round\n- Masks saved before this open unchanged, and the short-lived whole-mask invert\n  flag is cleared the next time the hotspot is saved",
+          "images": []
+        },
+        {
+          "id": "0.1.23/fixes",
+          "title": "Fixes",
+          "badge": "Fixed",
+          "kind": "fixes",
+          "body": "- Opening a project that uses a custom HTML hotspot preset no longer sends the\n  whole properties panel into the error screen. The preset's style scope was\n  looked up as if it were one of the builtin ones, which threw on every mount.\n- The error screen is no longer a dead end: alongside **Refresh Page** it now\n  offers **Back to Dashboard** and **Contact Support**.",
+          "images": []
+        }
+      ]
+    },
+    {
       "version": "0.1.22",
       "date": "2026-09-25",
       "cards": [
