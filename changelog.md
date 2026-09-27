@@ -1,5 +1,33 @@
 # Changelog
 
+## 0.1.24
+
+### Hotspots stay on the wall through a Slide To (fixed)
+
+A **Slide To** used to push the camera forward towards the hotspot that was
+clicked. In a cubemap panorama the picture is drawn from the view rotation
+alone, so moving the camera moved the hotspots and nothing else: every one of
+them slid off the thing it was placed on for the whole departure. The camera
+now holds its place and the push forward is the zoom and the turn towards the
+hotspot, which is what the arrival into the next panorama already did.
+
+- The transition looks the same, minus the drift — hotspots stay on their walls
+  from the first frame to the last
+- **Slide To** no longer uses the crossfade sphere, which had the same drift
+  and none of the anchored motion
+- The still frame held over the departing panorama now includes its hotspots,
+  so a video or HTML hotspot from the panorama you are arriving in no longer
+  flashes over the room you are still standing in
+
+### Fixes
+
+- A Slide To no longer stutters at the moment it starts. The outgoing frame is
+  copied straight between canvases instead of being JPEG-encoded on that frame,
+  and the sharper cubemap tiles, the arriving hotspots and the neighbour
+  prefetch all wait for the dissolve to end rather than landing in the middle
+  of it.
+- A long frame mid-transition now slows the motion instead of making it lurch.
+
 ## 0.1.23
 
 ### Each mask shape cuts or keeps (improved)

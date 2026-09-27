@@ -2,6 +2,28 @@
   "markdown": "https://360creators.github.io/360crafter-releases/changelog.md",
   "versions": [
     {
+      "version": "0.1.24",
+      "date": "2026-09-27",
+      "cards": [
+        {
+          "id": "0.1.24/hotspots-stay-on-the-wall-through-a-slide-to",
+          "title": "Hotspots stay on the wall through a Slide To",
+          "badge": "Fixed",
+          "kind": "fixes",
+          "body": "A **Slide To** used to push the camera forward towards the hotspot that was\nclicked. In a cubemap panorama the picture is drawn from the view rotation\nalone, so moving the camera moved the hotspots and nothing else: every one of\nthem slid off the thing it was placed on for the whole departure. The camera\nnow holds its place and the push forward is the zoom and the turn towards the\nhotspot, which is what the arrival into the next panorama already did.\n\n- The transition looks the same, minus the drift — hotspots stay on their walls\n  from the first frame to the last\n- **Slide To** no longer uses the crossfade sphere, which had the same drift\n  and none of the anchored motion\n- The still frame held over the departing panorama now includes its hotspots,\n  so a video or HTML hotspot from the panorama you are arriving in no longer\n  flashes over the room you are still standing in",
+          "images": []
+        },
+        {
+          "id": "0.1.24/fixes",
+          "title": "Fixes",
+          "badge": "Fixed",
+          "kind": "fixes",
+          "body": "- A Slide To no longer stutters at the moment it starts. The outgoing frame is\n  copied straight between canvases instead of being JPEG-encoded on that frame,\n  and the sharper cubemap tiles, the arriving hotspots and the neighbour\n  prefetch all wait for the dissolve to end rather than landing in the middle\n  of it.\n- A long frame mid-transition now slows the motion instead of making it lurch.",
+          "images": []
+        }
+      ]
+    },
+    {
       "version": "0.1.23",
       "date": "2026-09-26",
       "cards": [
