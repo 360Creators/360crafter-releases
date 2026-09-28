@@ -6,11 +6,19 @@
       "date": "2026-09-28",
       "cards": [
         {
-          "id": "0.2.1/everything-the-editor-gained-since-0-1-24",
-          "title": "Everything the editor gained since 0.1.24",
-          "badge": "New",
+          "id": "0.2.1/publish-a-360crafter-software-update-or-video-every-day-for-40-workdays",
+          "title": "Publish A 360Crafter Software Update Or Video Every Day For 40 Workdays",
+          "badge": "Experimental",
           "kind": "feature",
-          "body": "The app and the editor it runs were built from two separate repositories, and\nthey carried two separate version numbers — the editor had reached 0.1.46 while\nthe app it shipped inside was still counting from 0.1.24. They are one project\nnow, on one version, so this release collects every editor change made since\n0.1.24 and hands it to you in a single update.\n\n- Hotspots hold their place on the wall through a **Slide To**\n- Masks have a Cut/Keep direction, and cut-outs draw on video and polygon\n  hotspots\n- Callout, Tooltip and Radar settings inherited from a preset now show on the\n  hotspot itself\n- Per-panorama styling for linked hotspots, skin video, and hotspot corner\n  fitting\n- Missing panorama tiles are generated on export, and new projects default to\n  tiled\n- Change a hotspot's type straight from the right-click menu\n- Interactive image floorplans, embeddable viewers, split compare with a\n  draggable divider, and map media with the GPS overview folded in\n- Media palette buttons, map fixes, and streamed backups",
+          "body": "Personal challenge:\nhttps://www.youtube.com/shorts/tc9_yyoX1eQ",
+          "images": []
+        },
+        {
+          "id": "0.2.1/fresh-start-v0-2-1",
+          "title": "Fresh start v0.2.1",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "Cleaning up code.",
           "images": []
         },
         {
