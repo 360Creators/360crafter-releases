@@ -1,5 +1,34 @@
 # Changelog
 
+## 0.2.1
+
+### Everything the editor gained since 0.1.24
+
+The app and the editor it runs were built from two separate repositories, and
+they carried two separate version numbers — the editor had reached 0.1.46 while
+the app it shipped inside was still counting from 0.1.24. They are one project
+now, on one version, so this release collects every editor change made since
+0.1.24 and hands it to you in a single update.
+
+- Hotspots hold their place on the wall through a **Slide To**
+- Masks have a Cut/Keep direction, and cut-outs draw on video and polygon
+  hotspots
+- Callout, Tooltip and Radar settings inherited from a preset now show on the
+  hotspot itself
+- Per-panorama styling for linked hotspots, skin video, and hotspot corner
+  fitting
+- Missing panorama tiles are generated on export, and new projects default to
+  tiled
+- Change a hotspot's type straight from the right-click menu
+- Interactive image floorplans, embeddable viewers, split compare with a
+  draggable divider, and map media with the GPS overview folded in
+- Media palette buttons, map fixes, and streamed backups
+
+### Fixes
+
+- Nothing in the app changed shape — if an update has been waiting for you,
+  this is the one that brings all of it across at once
+
 ## 0.1.24
 
 ### Hotspots stay on the wall through a Slide To (fixed)

@@ -2,6 +2,28 @@
   "markdown": "https://360creators.github.io/360crafter-releases/changelog.md",
   "versions": [
     {
+      "version": "0.2.1",
+      "date": "2026-09-28",
+      "cards": [
+        {
+          "id": "0.2.1/everything-the-editor-gained-since-0-1-24",
+          "title": "Everything the editor gained since 0.1.24",
+          "badge": "New",
+          "kind": "feature",
+          "body": "The app and the editor it runs were built from two separate repositories, and\nthey carried two separate version numbers — the editor had reached 0.1.46 while\nthe app it shipped inside was still counting from 0.1.24. They are one project\nnow, on one version, so this release collects every editor change made since\n0.1.24 and hands it to you in a single update.\n\n- Hotspots hold their place on the wall through a **Slide To**\n- Masks have a Cut/Keep direction, and cut-outs draw on video and polygon\n  hotspots\n- Callout, Tooltip and Radar settings inherited from a preset now show on the\n  hotspot itself\n- Per-panorama styling for linked hotspots, skin video, and hotspot corner\n  fitting\n- Missing panorama tiles are generated on export, and new projects default to\n  tiled\n- Change a hotspot's type straight from the right-click menu\n- Interactive image floorplans, embeddable viewers, split compare with a\n  draggable divider, and map media with the GPS overview folded in\n- Media palette buttons, map fixes, and streamed backups",
+          "images": []
+        },
+        {
+          "id": "0.2.1/fixes",
+          "title": "Fixes",
+          "badge": "Fixed",
+          "kind": "fixes",
+          "body": "- Nothing in the app changed shape — if an update has been waiting for you,\n  this is the one that brings all of it across at once",
+          "images": []
+        }
+      ]
+    },
+    {
       "version": "0.1.24",
       "date": "2026-09-27",
       "cards": [
