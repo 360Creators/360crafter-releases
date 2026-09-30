@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.2.4
+
+### Fixes
+
+- Videos, images and audio you upload to a hotspot or skin component now play in
+  an exported tour instead of pointing at a file that only exists on your computer
+  (links to media hosted elsewhere are left as they are)
+
 ## 0.2.3
 
 ### Fixes

@@ -2,6 +2,20 @@
   "markdown": "https://360creators.github.io/360crafter-releases/changelog.md",
   "versions": [
     {
+      "version": "0.2.4",
+      "date": "2026-09-30",
+      "cards": [
+        {
+          "id": "0.2.4/fixes",
+          "title": "Fixes",
+          "badge": "Fixed",
+          "kind": "fixes",
+          "body": "- Videos, images and audio you upload to a hotspot or skin component now play in\n  an exported tour instead of pointing at a file that only exists on your computer\n  (links to media hosted elsewhere are left as they are)",
+          "images": []
+        }
+      ]
+    },
+    {
       "version": "0.2.3",
       "date": "2026-09-30",
       "cards": [
