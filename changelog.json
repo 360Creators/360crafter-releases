@@ -2,6 +2,20 @@
   "markdown": "https://360creators.github.io/360crafter-releases/changelog.md",
   "versions": [
     {
+      "version": "0.2.5",
+      "date": "2026-09-30",
+      "cards": [
+        {
+          "id": "0.2.5/fixes",
+          "title": "Fixes",
+          "badge": "Fixed",
+          "kind": "fixes",
+          "body": "- Drawing a polygon hotspot no longer refuses a point just because the outline,\n  if closed right there, would cross itself — you can place points freely and\n  fix a fold with later points (a crossing outline is still caught when you\n  finish the shape)",
+          "images": []
+        }
+      ]
+    },
+    {
       "version": "0.2.4",
       "date": "2026-09-30",
       "cards": [

@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.2.5
+
+### Fixes
+
+- Drawing a polygon hotspot no longer refuses a point just because the outline,
+  if closed right there, would cross itself — you can place points freely and
+  fix a fold with later points (a crossing outline is still caught when you
+  finish the shape)
+
 ## 0.2.4
 
 ### Fixes
