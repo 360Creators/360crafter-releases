@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.2.3
+
+### Fixes
+
+- A hotspot's mask is no longer lost the next time anything about the hotspot
+  changes
+- Hotspots no longer change sizes based on screensize.
+
 ## 0.2.2
 
 ### Security updates (improved)

@@ -2,6 +2,20 @@
   "markdown": "https://360creators.github.io/360crafter-releases/changelog.md",
   "versions": [
     {
+      "version": "0.2.3",
+      "date": "2026-09-30",
+      "cards": [
+        {
+          "id": "0.2.3/fixes",
+          "title": "Fixes",
+          "badge": "Fixed",
+          "kind": "fixes",
+          "body": "- A hotspot's mask is no longer lost the next time anything about the hotspot\n  changes\n- Hotspots no longer change sizes based on screensize.",
+          "images": []
+        }
+      ]
+    },
+    {
       "version": "0.2.2",
       "date": "2026-09-28",
       "cards": [
