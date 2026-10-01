@@ -1,5 +1,21 @@
 # Changelog
 
+## 0.2.8
+
+### Polygon hover, active and visited states
+
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.8/image.png)
+
+Polygon hotspots now have the same state dropdown as icon and text hotspots. Pick
+**Hover**, **Active** or **Visited** and set a fill and outline colour and opacity
+for that state; anything you leave unset keeps the normal look. Active and Visited
+follow the same rules as other hotspots: a polygon is active when it links to the
+panorama you are in, and visited when it links to one you have already seen.
+
+### Fixes
+
+- Polygon and video mask outlines no longer show over the canvas while you edit the Skin
+
 ## 0.2.7
 
 ### Fixes
