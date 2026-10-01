@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.2.7
+
+### Fixes
+
+- The **+** menu for adding an action no longer runs off the bottom of the window on
+  shorter screens — it now stays fully visible and scrolls when the list is taller
+  than the space available
+
 ## 0.2.6
 
 ### HTML component in the Skin

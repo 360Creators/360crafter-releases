@@ -2,6 +2,20 @@
   "markdown": "https://360creators.github.io/360crafter-releases/changelog.md",
   "versions": [
     {
+      "version": "0.2.7",
+      "date": "2026-10-01",
+      "cards": [
+        {
+          "id": "0.2.7/fixes",
+          "title": "Fixes",
+          "badge": "Fixed",
+          "kind": "fixes",
+          "body": "- The **+** menu for adding an action no longer runs off the bottom of the window on\n  shorter screens — it now stays fully visible and scrolls when the list is taller\n  than the space available",
+          "images": []
+        }
+      ]
+    },
+    {
       "version": "0.2.6",
       "date": "2026-10-01",
       "cards": [
