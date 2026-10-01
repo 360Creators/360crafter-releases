@@ -1,5 +1,41 @@
 # Changelog
 
+## 0.2.6
+
+### HTML component in the Skin
+
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.6/image.png)
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.6/image-2.png)
+
+Paste your own HTML and CSS straight into a skin component, the same way the HTML
+hotspot already works. Bind content with `[hotspot.name]`, `[panorama.field]` and
+`[var.name]` tokens, style it with your project's colour and size variables, and
+make any element clickable by marking it `data-action="name"` and picking that
+name under **Trigger element** in Actions. Drop one inside a CMS List and every
+row renders the same snippet with its own record.
+
+### A better HTML editor
+
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.6/image-3.png)
+
+The code box you write those snippets in — for hotspots as well as components —
+grew the things you reach for while editing:
+
+- Collapse and expand blocks like `<style>`, `<section>` or any `<div>`, with
+  **Collapse all** to fold the whole snippet at once
+- Open it fullscreen in a popup, with your selection carried across both ways
+- `⌘F` opens the search with the cursor already in it; Escape clears the search,
+  Escape again closes the popup
+- Click a detected variable to jump to it in the code, and click again to step
+  through its other uses
+- See which elements you are editing, similar to working in the browser console.
+
+### Fixes
+
+- Menus and dropdowns no longer run off the edge of the window or get cut off by
+  the panel they sit in — the right-click menu on the canvas, the preset menus,
+  and the `[` variable list all stay fully visible now
+
 ## 0.2.5
 
 ### Fixes

@@ -2,6 +2,50 @@
   "markdown": "https://360creators.github.io/360crafter-releases/changelog.md",
   "versions": [
     {
+      "version": "0.2.6",
+      "date": "2026-10-01",
+      "cards": [
+        {
+          "id": "0.2.6/html-component-in-the-skin",
+          "title": "HTML component in the Skin",
+          "badge": "New",
+          "kind": "feature",
+          "body": "Paste your own HTML and CSS straight into a skin component, the same way the HTML\nhotspot already works. Bind content with `[hotspot.name]`, `[panorama.field]` and\n`[var.name]` tokens, style it with your project's colour and size variables, and\nmake any element clickable by marking it `data-action=\"name\"` and picking that\nname under **Trigger element** in Actions. Drop one inside a CMS List and every\nrow renders the same snippet with its own record.",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.2.6/image.png",
+              "caption": ""
+            },
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.2.6/image-2.png",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "id": "0.2.6/a-better-html-editor",
+          "title": "A better HTML editor",
+          "badge": "New",
+          "kind": "feature",
+          "body": "The code box you write those snippets in — for hotspots as well as components —\ngrew the things you reach for while editing:\n\n- Collapse and expand blocks like `<style>`, `<section>` or any `<div>`, with\n  **Collapse all** to fold the whole snippet at once\n- Open it fullscreen in a popup, with your selection carried across both ways\n- `⌘F` opens the search with the cursor already in it; Escape clears the search,\n  Escape again closes the popup\n- Click a detected variable to jump to it in the code, and click again to step\n  through its other uses\n- See which elements you are editing, similar to working in the browser console.",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.2.6/image-3.png",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "id": "0.2.6/fixes",
+          "title": "Fixes",
+          "badge": "Fixed",
+          "kind": "fixes",
+          "body": "- Menus and dropdowns no longer run off the edge of the window or get cut off by\n  the panel they sit in — the right-click menu on the canvas, the preset menus,\n  and the `[` variable list all stay fully visible now",
+          "images": []
+        }
+      ]
+    },
+    {
       "version": "0.2.5",
       "date": "2026-09-30",
       "cards": [
