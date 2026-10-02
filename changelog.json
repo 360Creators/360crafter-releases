@@ -2,6 +2,49 @@
   "markdown": "https://360creators.github.io/360crafter-releases/changelog.md",
   "versions": [
     {
+      "version": "0.2.9",
+      "date": "2026-10-02",
+      "cards": [
+        {
+          "id": "0.2.9/search-across-all-cms-tables",
+          "title": "Search across all CMS tables",
+          "badge": "New",
+          "kind": "feature",
+          "body": "The CMS page has a new **Search all tables** box. Type to see matching rows from every\ntable with the field they matched in, and pick one to jump straight to that row. Press\nEnter to filter the table you are looking at by the same text.",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.2.9/image.png",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "id": "0.2.9/corner-fit-a-hotspot-onto-a-surface",
+          "title": "Corner-fit a hotspot onto a surface",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "Drag the four corner handles onto the corners of a flat surface in the panorama, then\npress **Apply**. Corners now move exactly where you drag them, nothing shifts until you\napply, and **Reset** puts them back.",
+          "images": []
+        },
+        {
+          "id": "0.2.9/style-indicators-in-more-places",
+          "title": "Style indicators in more places",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "Accessibility title and description, and all the Tooltip fields, can now live in a\npreset and show the blue, orange and red indicators. Option-click or Cmd-click a coloured\nlabel to clear it back to the inherited value. Collapsed Accessibility, Transform,\nCallout, Tooltip and Mask sections show a coloured dot when something inside is set.",
+          "images": []
+        },
+        {
+          "id": "0.2.9/fixes",
+          "title": "Fixes",
+          "badge": "Fixed",
+          "kind": "fixes",
+          "body": "- Cmd+Z and Cmd+Shift+Z in the desktop app now undo and redo hotspot moves and Skin edits\n- The Load screen in the Skin can use the same layout options as a box and always stays on top\n- Dragging a hotspot group moves all its children as one undo step\n- Preset and Skin style dropdowns close with Esc, focus their search field on open and no longer show a needless scrollbar\n- The Skin component list dims everything outside the container you are working in",
+          "images": []
+        }
+      ]
+    },
+    {
       "version": "0.2.8",
       "date": "2026-10-01",
       "cards": [

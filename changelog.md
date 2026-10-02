@@ -1,5 +1,36 @@
 # Changelog
 
+## 0.2.9
+
+### Search across all CMS tables
+
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.9/image.png)
+
+The CMS page has a new **Search all tables** box. Type to see matching rows from every
+table with the field they matched in, and pick one to jump straight to that row. Press
+Enter to filter the table you are looking at by the same text.
+
+### Corner-fit a hotspot onto a surface (improved)
+
+Drag the four corner handles onto the corners of a flat surface in the panorama, then
+press **Apply**. Corners now move exactly where you drag them, nothing shifts until you
+apply, and **Reset** puts them back.
+
+### Style indicators in more places (improved)
+
+Accessibility title and description, and all the Tooltip fields, can now live in a
+preset and show the blue, orange and red indicators. Option-click or Cmd-click a coloured
+label to clear it back to the inherited value. Collapsed Accessibility, Transform,
+Callout, Tooltip and Mask sections show a coloured dot when something inside is set.
+
+### Fixes
+
+- Cmd+Z and Cmd+Shift+Z in the desktop app now undo and redo hotspot moves and Skin edits
+- The Load screen in the Skin can use the same layout options as a box and always stays on top
+- Dragging a hotspot group moves all its children as one undo step
+- Preset and Skin style dropdowns close with Esc, focus their search field on open and no longer show a needless scrollbar
+- The Skin component list dims everything outside the container you are working in
+
 ## 0.2.8
 
 ### Polygon hover, active and visited states
