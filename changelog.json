@@ -2,6 +2,66 @@
   "markdown": "https://360creators.github.io/360crafter-releases/changelog.md",
   "versions": [
     {
+      "version": "0.2.11",
+      "date": "2026-10-05",
+      "cards": [
+        {
+          "id": "0.2.11/skin-video-controls",
+          "title": "Skin video controls",
+          "badge": "New",
+          "kind": "feature",
+          "body": "The skin video component has optional playback controls: play/pause, a play overlay,\nskip back and forward, a progress bar, and a darkened backdrop behind them. All are off\nuntil you turn them on.",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.2.11/image.png",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "id": "0.2.11/assets-upload-images-and-videos",
+          "title": "Assets: upload images and videos",
+          "badge": "New",
+          "kind": "feature",
+          "body": "The Assets page accepts image and video uploads, and **Copy local path** gives you the\npath to paste into a URL field or HTML. Exports bundle those files automatically.",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.2.11/image-3.png",
+              "caption": ""
+            },
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.2.11/image-2.png",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "id": "0.2.11/embeds-in-custom-html",
+          "title": "Embeds in Custom HTML",
+          "badge": "New",
+          "kind": "feature",
+          "body": "Custom HTML hotspots and the HTML skin component can now embed trusted iframes, such as\nVimeo and YouTube players. Video components in the skin also play Vimeo and YouTube links.\nA hotspot with a click action runs it even when an embed sits underneath.",
+          "images": []
+        },
+        {
+          "id": "0.2.11/custom-html-editor-brackets",
+          "title": "Custom HTML editor brackets",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "The code editor highlights the matching bracket next to the caret, and the caret no\nlonger drifts from the text on long lines.",
+          "images": []
+        },
+        {
+          "id": "0.2.11/fixes",
+          "title": "Fixes",
+          "badge": "Fixed",
+          "kind": "fixes",
+          "body": "- Panorama actions are shown and saved on the selected preset chip, and Custom HTML presets keep their actions.\n- Text components follow the Component Tree order instead of always sitting in front.\n- Scrolling over HTML that scrolls itself no longer zooms the panorama.",
+          "images": []
+        }
+      ]
+    },
+    {
       "version": "0.2.10",
       "date": "2026-10-05",
       "cards": [

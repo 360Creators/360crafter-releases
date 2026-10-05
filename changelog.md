@@ -1,5 +1,40 @@
 # Changelog
 
+## 0.2.11
+
+### Skin video controls
+
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.11/image.png)
+
+The skin video component has optional playback controls: play/pause, a play overlay,
+skip back and forward, a progress bar, and a darkened backdrop behind them. All are off
+until you turn them on.
+
+### Assets: upload images and videos
+
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.11/image-3.png)
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.11/image-2.png)
+
+The Assets page accepts image and video uploads, and **Copy local path** gives you the
+path to paste into a URL field or HTML. Exports bundle those files automatically.
+
+### Embeds in Custom HTML
+
+Custom HTML hotspots and the HTML skin component can now embed trusted iframes, such as
+Vimeo and YouTube players. Video components in the skin also play Vimeo and YouTube links.
+A hotspot with a click action runs it even when an embed sits underneath.
+
+### Custom HTML editor brackets (improved)
+
+The code editor highlights the matching bracket next to the caret, and the caret no
+longer drifts from the text on long lines.
+
+### Fixes
+
+- Panorama actions are shown and saved on the selected preset chip, and Custom HTML presets keep their actions.
+- Text components follow the Component Tree order instead of always sitting in front.
+- Scrolling over HTML that scrolls itself no longer zooms the panorama.
+
 ## 0.2.10
 
 ### Choose a minimum panorama resolution
