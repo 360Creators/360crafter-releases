@@ -1,5 +1,23 @@
 # Changelog
 
+## 0.2.10
+
+### Choose a minimum panorama resolution
+
+In **Project Settings → Export & Publish**, choose the **Minimum panorama resolution**
+for tiled panoramas: Automatic, 2K, 4K, 8K or 16K. The editor and exported tours reuse
+existing tiles and start at the selected level or higher, within source and device
+limits. Higher minimums may take longer to load; single-image panoramas are unaffected.
+
+### Slide-To transitions (improved)
+
+Slide-To prepares the destination panorama before movement begins and postpones
+background detail updates until arrival finishes, reducing pauses during the switch.
+
+### Fixes
+
+- Destination hotspots appear with the panorama as you slide into it.
+
 ## 0.2.9
 
 ### Search across all CMS tables
