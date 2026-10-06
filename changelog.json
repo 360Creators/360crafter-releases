@@ -2,6 +2,76 @@
   "markdown": "https://360creators.github.io/360crafter-releases/changelog.md",
   "versions": [
     {
+      "version": "0.2.12",
+      "date": "2026-10-06",
+      "cards": [
+        {
+          "id": "0.2.12/video-subtitles-controls",
+          "title": "Video subtitles & controls",
+          "badge": "New",
+          "kind": "feature",
+          "body": "Add an .srt or .vtt file to a video hotspot or a skin video and the captions play with\nthe clip. Choose whether they show on the video or across the skin, then set the font,\nsize, colours, outline, position and width. Visitors get a **CC** button in the skin video\ncontrols to switch them on or off.\n\nSkip back and Skip forward are now separate switches. The progress bar can sit above or\nbelow the buttons, and the buttons can be placed left, centre or right. A video using\n**contain** can be aligned within its frame.\n\nhttps://www.youtube.com/watch?v=ef6sa26joZo",
+          "images": []
+        },
+        {
+          "id": "0.2.12/feather",
+          "title": "Feather",
+          "badge": "New",
+          "kind": "feature",
+          "body": "https://youtu.be/UmX0BIFzoMw\n\nInside the Mask section there's a new property: Feather\nTo make hotspots blend in better with panoramas. This new property is for all hotspot types: text, icon, video, polygon, html.",
+          "images": []
+        },
+        {
+          "id": "0.2.12/trim-and-crop-videos-in-assets",
+          "title": "Trim and crop videos in Assets",
+          "badge": "New",
+          "kind": "feature",
+          "body": "Trim the start and end of an uploaded video, or drag the frame to crop it, without\nleaving the Assets page. Save the result as a new version or replace the original. Edits\nare processed in your browser. Subtitle files now have their own section in Assets, where\nyou can edit or replace them.\n\nhttps://youtu.be/wVjCOUanxdI",
+          "images": []
+        },
+        {
+          "id": "0.2.12/merge-duplicate-icons",
+          "title": "Merge duplicate icons",
+          "badge": "New",
+          "kind": "feature",
+          "body": "Select two or more icons in Assets and choose **Merge** to keep one. The others take on\nits artwork and name everywhere they are used.",
+          "images": []
+        },
+        {
+          "id": "0.2.12/custom-html-hotspots-have-strokes-and-states",
+          "title": "Custom HTML hotspots have Strokes and States",
+          "badge": "New",
+          "kind": "feature",
+          "body": "Custom HTML hotspots now have **Strokes**, including Inside, Center and Outside\npositions and extra strokes.\n\nAnd **States** (Normal, Hover, Active, Visited).",
+          "images": []
+        },
+        {
+          "id": "0.2.12/shadow-inside-hotspots",
+          "title": "Shadow inside hotspots",
+          "badge": "New",
+          "kind": "feature",
+          "body": "Text, icon and Custom HTML hotspots take an inner shadow. Videos, polygons and other\nhotspots get a **Feather** control, and video planes get rounded corners.\n\nhttps://youtu.be/DfQqW34IfPc",
+          "images": []
+        },
+        {
+          "id": "0.2.12/hotspot-names-and-text-tokens",
+          "title": "Hotspot names and text tokens",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "It's quite annoying to rename **Hotspot 2** to the text that you placed inside that text hotspot. So from now on it will read the first textline using **[hotspot.text.1]** as a variable in the hotspotname. You can also use [panorama.name] or [target.name] (target panorama that you're navigating to) to keep your hotspot names organized.",
+          "images": []
+        },
+        {
+          "id": "0.2.12/fixes",
+          "title": "Fixes",
+          "badge": "Fixed",
+          "kind": "fixes",
+          "body": "- Editing a style preset is now one undo step, and undo restores the preset itself.\n- Skin videos no longer restart while you edit, and stop when you leave preview.\n- Custom HTML hotspots no longer gain a background on hover, active or visited.\n- Clicks on a video that uses an aligned **contain** fit land on the right spot.",
+          "images": []
+        }
+      ]
+    },
+    {
       "version": "0.2.11",
       "date": "2026-10-05",
       "cards": [

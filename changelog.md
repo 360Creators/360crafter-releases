@@ -1,5 +1,66 @@
 # Changelog
 
+## 0.2.12
+
+### Video subtitles & controls
+
+Add an .srt or .vtt file to a video hotspot or a skin video and the captions play with
+the clip. Choose whether they show on the video or across the skin, then set the font,
+size, colours, outline, position and width. Visitors get a **CC** button in the skin video
+controls to switch them on or off.
+
+Skip back and Skip forward are now separate switches. The progress bar can sit above or
+below the buttons, and the buttons can be placed left, centre or right. A video using
+**contain** can be aligned within its frame.
+
+https://www.youtube.com/watch?v=ef6sa26joZo
+
+### Feather
+
+https://youtu.be/UmX0BIFzoMw
+
+Inside the Mask section there's a new property: Feather
+To make hotspots blend in better with panoramas. This new property is for all hotspot types: text, icon, video, polygon, html.
+
+### Trim and crop videos in Assets
+
+Trim the start and end of an uploaded video, or drag the frame to crop it, without
+leaving the Assets page. Save the result as a new version or replace the original. Edits
+are processed in your browser. Subtitle files now have their own section in Assets, where
+you can edit or replace them.
+
+https://youtu.be/wVjCOUanxdI
+
+### Merge duplicate icons
+
+Select two or more icons in Assets and choose **Merge** to keep one. The others take on
+its artwork and name everywhere they are used.
+
+### Custom HTML hotspots have Strokes and States
+
+Custom HTML hotspots now have **Strokes**, including Inside, Center and Outside
+positions and extra strokes.
+
+And **States** (Normal, Hover, Active, Visited).
+
+### Shadow inside hotspots
+
+Text, icon and Custom HTML hotspots take an inner shadow. Videos, polygons and other
+hotspots get a **Feather** control, and video planes get rounded corners.
+
+https://youtu.be/DfQqW34IfPc
+
+### Hotspot names and text tokens (improved)
+
+It's quite annoying to rename **Hotspot 2** to the text that you placed inside that text hotspot. So from now on it will read the first textline using **[hotspot.text.1]** as a variable in the hotspotname. You can also use [panorama.name] or [target.name] (target panorama that you're navigating to) to keep your hotspot names organized.
+
+### Fixes
+
+- Editing a style preset is now one undo step, and undo restores the preset itself.
+- Skin videos no longer restart while you edit, and stop when you leave preview.
+- Custom HTML hotspots no longer gain a background on hover, active or visited.
+- Clicks on a video that uses an aligned **contain** fit land on the right spot.
+
 ## 0.2.11
 
 ### Skin video controls
