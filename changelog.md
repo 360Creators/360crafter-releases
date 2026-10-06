@@ -13,7 +13,7 @@ Skip back and Skip forward are now separate switches. The progress bar can sit a
 below the buttons, and the buttons can be placed left, centre or right. A video using
 **contain** can be aligned within its frame.
 
-https://www.youtube.com/watch?v=ef6sa26joZo
+Watch the walkthrough: https://www.youtube.com/watch?v=ef6sa26joZo
 
 ### Feather
 

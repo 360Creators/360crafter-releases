@@ -10,7 +10,7 @@
           "title": "Video subtitles & controls",
           "badge": "New",
           "kind": "feature",
-          "body": "Add an .srt or .vtt file to a video hotspot or a skin video and the captions play with\nthe clip. Choose whether they show on the video or across the skin, then set the font,\nsize, colours, outline, position and width. Visitors get a **CC** button in the skin video\ncontrols to switch them on or off.\n\nSkip back and Skip forward are now separate switches. The progress bar can sit above or\nbelow the buttons, and the buttons can be placed left, centre or right. A video using\n**contain** can be aligned within its frame.\n\nhttps://www.youtube.com/watch?v=ef6sa26joZo",
+          "body": "Add an .srt or .vtt file to a video hotspot or a skin video and the captions play with\nthe clip. Choose whether they show on the video or across the skin, then set the font,\nsize, colours, outline, position and width. Visitors get a **CC** button in the skin video\ncontrols to switch them on or off.\n\nSkip back and Skip forward are now separate switches. The progress bar can sit above or\nbelow the buttons, and the buttons can be placed left, centre or right. A video using\n**contain** can be aligned within its frame.\n\nWatch the walkthrough: https://www.youtube.com/watch?v=ef6sa26joZo",
           "images": []
         },
         {
