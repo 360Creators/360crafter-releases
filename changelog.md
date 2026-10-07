@@ -1,5 +1,39 @@
 # Changelog
 
+## 0.2.13
+
+### Tab order for keyboard visitors
+
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.13/image-3.png)
+
+Every **skin** component now has a **Position** in its Accessibility section, listed in the order a visitor meets them: before the panoramas, on the panorama, inside the panorama before its hotspots, inside it after its hotspots, and after the panoramas. A back button can come right after the panorama; a menu can come first.
+
+- Tab walks the panoramas; **Enter** goes inside one, **Esc** comes back out
+- Enter on a skin video or a floorplan steps into its buttons or pins
+- A popup box can be a **Dialog**: it takes focus when it opens, keeps Tab inside, hides the page behind it from screen readers and closes on Esc
+- After the loading screen, focus starts on the first control placed before the panoramas
+- New project setting **Hotspot order**: follow the hotspot tree, or start with what is in front of the visitor and end with what is behind
+
+### Maps and interactive images stay out of the main viewer
+
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.13/image-2.png)
+
+A map or interactive image has a new **Main viewer** switch. New ones start switched off, so Preview, published tours and keyboard cycling skip them and show them only in a skin's own media viewers. Existing media is unchanged. Floorplan and maps are usually only used in an additional media viewer.
+
+### Rename hotspots in bulk (improved)
+
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.13/image.png)
+
+Bulk rename has a new **Overwrite** tab that gives every selected hotspot the same new name.
+
+### Fixes
+
+- Exported tours show the keyboard focus ring in your chosen colour on skin controls, video buttons, floorplan pins, panoramas, hotspot groups and HTML hotspots, including masked ones
+- Exported tours load video subtitles, and the focus label has its dark background again
+- Pressing Tab after the last hotspot no longer lands on invisible stops, and text and box components are only a Tab stop when their Tab Order says so
+- Showing a skin component from a panorama's enter or leave action no longer pulls keyboard focus off the panorama
+- Link hotspots show the name of the panorama they go to
+
 ## 0.2.12
 
 ### Video subtitles & controls
