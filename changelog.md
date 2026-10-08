@@ -1,5 +1,57 @@
 # Changelog
 
+## 0.2.14
+
+### New skin component: PDF
+
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.14/image.png)
+
+Let visitors read documents without leaving the tour. Add a **PDF** component, then use PDF file to upload a document, choose one from Assets, or enter an external URL.
+
+- Choose single-page navigation or continuous scrolling, an initial page, and fit-page or fit-width
+- Enable only the controls you need: all PDF controls start off, and each has its own override indicator
+- Drag the control handles to arrange the buttons, choose their placement, and optionally enable download
+- Use **+ / −** to zoom and **WASD / arrow keys** to pan while zoomed in; hold **Shift** to move faster
+- Uploaded PDFs and the reader are included in exports; large documents load in parts when the host supports it
+
+### Zoom into skin images
+
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.14/zoomimg.gif)
+
+Turn on zoom controls for a skin image so visitors can explore a map, plan, or detailed photograph. Choose the buttons, their order and position, the maximum zoom, and whether wheel zoom and dragging are available.
+
+Keyboard visitors can zoom with **+ / −**, reset with **0**, and pan with **WASD / arrow keys**, using **Shift** for larger movements.
+
+### Draw attention to hotspots
+
+https://youtu.be/xr43GESyads
+
+Give a hotspot a **Pulse** ring or **Glow** halo, with your own colour, timing, size, and fade-out. Keep the effect running, or stop it after the hotspot is hovered, clicked, or visited.
+
+### More control over keyboard navigation (improved)
+
+When going into your Accessibility settings, choose whether keyboard navigation stops on the panorama before entering its hotspots, adjust the camera movement speed, and override the hotspot order for individual panoramas. Custom HTML links, buttons, and action zones can also be reached from the keyboard.
+
+### Video controls and dialogs
+
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.14/image-2.png)
+
+Add play/pause buttons, mute button and volume sliders to your video skin component.
+
+### Embed your virtual tour in iframe without scroll jail
+
+When using the loading screen and embedding the virtual tour on your website, your website visitors won't be annoyed that they can not continue scrolling on the website as the embedded iframe might be 100% width. Now it only catches the scroll the moment you hide the loading screen to zoom in or out inside panoramas.  
+Nothing to do, it's set as the default in the project settings &gt; export settings.
+
+### Fixes
+
+- Undo restores a deleted skin selection and its children together in one step
+- Transparent parts of keyed skin videos let pointer interactions pass through
+- Keyboard focus stays visible over media viewers and masked content
+- Hotspot hover effects no longer fail when an icon wrapper is missing
+- Cancelling a PDF page request no longer blocks later document renders; page rendering has loading and retry feedback
+- Bulk hotspot renaming supports replacing the entire name with **Overwrite**
+
 ## 0.2.13
 
 ### Tab order for keyboard visitors

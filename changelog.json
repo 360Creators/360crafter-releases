@@ -2,6 +2,83 @@
   "markdown": "https://360creators.github.io/360crafter-releases/changelog.md",
   "versions": [
     {
+      "version": "0.2.14",
+      "date": "2026-10-08",
+      "cards": [
+        {
+          "id": "0.2.14/new-skin-component-pdf",
+          "title": "New skin component: PDF",
+          "badge": "New",
+          "kind": "feature",
+          "body": "Let visitors read documents without leaving the tour. Add a **PDF** component, then use PDF file to upload a document, choose one from Assets, or enter an external URL.\n\n- Choose single-page navigation or continuous scrolling, an initial page, and fit-page or fit-width\n- Enable only the controls you need: all PDF controls start off, and each has its own override indicator\n- Drag the control handles to arrange the buttons, choose their placement, and optionally enable download\n- Use **+ / −** to zoom and **WASD / arrow keys** to pan while zoomed in; hold **Shift** to move faster\n- Uploaded PDFs and the reader are included in exports; large documents load in parts when the host supports it",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.2.14/image.png",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "id": "0.2.14/zoom-into-skin-images",
+          "title": "Zoom into skin images",
+          "badge": "New",
+          "kind": "feature",
+          "body": "Turn on zoom controls for a skin image so visitors can explore a map, plan, or detailed photograph. Choose the buttons, their order and position, the maximum zoom, and whether wheel zoom and dragging are available.\n\nKeyboard visitors can zoom with **+ / −**, reset with **0**, and pan with **WASD / arrow keys**, using **Shift** for larger movements.",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.2.14/zoomimg.gif",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "id": "0.2.14/draw-attention-to-hotspots",
+          "title": "Draw attention to hotspots",
+          "badge": "New",
+          "kind": "feature",
+          "body": "Give a hotspot a **Pulse** ring or **Glow** halo, with your own colour, timing, size, and fade-out. Keep the effect running, or stop it after the hotspot is hovered, clicked, or visited.",
+          "images": []
+        },
+        {
+          "id": "0.2.14/more-control-over-keyboard-navigation",
+          "title": "More control over keyboard navigation",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "When going into your Accessibility settings, choose whether keyboard navigation stops on the panorama before entering its hotspots, adjust the camera movement speed, and override the hotspot order for individual panoramas. Custom HTML links, buttons, and action zones can also be reached from the keyboard.",
+          "images": []
+        },
+        {
+          "id": "0.2.14/video-controls-and-dialogs",
+          "title": "Video controls and dialogs",
+          "badge": "New",
+          "kind": "feature",
+          "body": "Add play/pause buttons, mute button and volume sliders to your video skin component.",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.2.14/image-2.png",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "id": "0.2.14/embed-your-virtual-tour-in-iframe-without-scroll-jail",
+          "title": "Embed your virtual tour in iframe without scroll jail",
+          "badge": "New",
+          "kind": "feature",
+          "body": "When using the loading screen and embedding the virtual tour on your website, your website visitors won't be annoyed that they can not continue scrolling on the website as the embedded iframe might be 100% width. Now it only catches the scroll the moment you hide the loading screen to zoom in or out inside panoramas.  \nNothing to do, it's set as the default in the project settings &gt; export settings.",
+          "images": []
+        },
+        {
+          "id": "0.2.14/fixes",
+          "title": "Fixes",
+          "badge": "Fixed",
+          "kind": "fixes",
+          "body": "- Undo restores a deleted skin selection and its children together in one step\n- Transparent parts of keyed skin videos let pointer interactions pass through\n- Keyboard focus stays visible over media viewers and masked content\n- Hotspot hover effects no longer fail when an icon wrapper is missing\n- Cancelling a PDF page request no longer blocks later document renders; page rendering has loading and retry feedback\n- Bulk hotspot renaming supports replacing the entire name with **Overwrite**",
+          "images": []
+        }
+      ]
+    },
+    {
       "version": "0.2.13",
       "date": "2026-10-07",
       "cards": [
@@ -71,7 +148,7 @@
           "title": "Feather",
           "badge": "New",
           "kind": "feature",
-          "body": "https://youtu.be/UmX0BIFzoMw\n\nInside the Mask section there's a new property: Feather\nTo make hotspots blend in better with panoramas. This new property is for all hotspot types: text, icon, video, polygon, html.",
+          "body": "Inside the Mask section there's a new property: Feather\nTo make hotspots blend in better with panoramas. This new property is for all hotspot types: text, icon, video, polygon, html.",
           "images": []
         },
         {
@@ -79,7 +156,7 @@
           "title": "Trim and crop videos in Assets",
           "badge": "New",
           "kind": "feature",
-          "body": "Trim the start and end of an uploaded video, or drag the frame to crop it, without\nleaving the Assets page. Save the result as a new version or replace the original. Edits\nare processed in your browser. Subtitle files now have their own section in Assets, where\nyou can edit or replace them.\n\nhttps://youtu.be/wVjCOUanxdI",
+          "body": "Trim the start and end of an uploaded video, or drag the frame to crop it, without\nleaving the Assets page. Save the result as a new version or replace the original. Edits\nare processed in your browser. Subtitle files now have their own section in Assets, where\nyou can edit or replace them.",
           "images": []
         },
         {
@@ -103,7 +180,7 @@
           "title": "Shadow inside hotspots",
           "badge": "New",
           "kind": "feature",
-          "body": "Text, icon and Custom HTML hotspots take an inner shadow. Videos, polygons and other\nhotspots get a **Feather** control, and video planes get rounded corners.\n\nhttps://youtu.be/DfQqW34IfPc",
+          "body": "Text, icon and Custom HTML hotspots take an inner shadow. Videos, polygons and other\nhotspots get a **Feather** control, and video planes get rounded corners.",
           "images": []
         },
         {
