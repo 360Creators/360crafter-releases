@@ -1,5 +1,49 @@
 # Changelog
 
+## 0.2.16
+
+### Screen-reader outline of your tour
+
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.16/image.png)
+
+Turn on **Screen-reader outline** in Accessibility settings and your tour gains a hidden heading structure: the tour name as the page's `h1`, every scene as a linked `h2`, and the groups and hotspots of the scene being viewed beneath it. Scenes and hotspots are named by their **Accessibility Title**, so the names you already write are what a screen reader reads out.
+
+- Scene headings are links, so a screen-reader visitor can jump between scenes without tabbing through the one they are in
+- The outline is also written into the exported page, so checkers and crawlers that do not run the tour still find it
+- The viewer is wrapped in a `main` landmark
+- Nothing is visible on screen, and hotspots marked **Decorative** are left out
+
+### Mark a Box as a page region
+
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.16/image-2.png)
+
+Give a Box a **Page region** in its Accessibility section — `nav`, `header`, `footer`, `aside`, `section` or `main` — and it renders as that element instead of a plain container, so screen-reader users can jump straight to your navigation or footer. The editor warns when a choice will not work: a second `main`, two unnamed regions of the same kind, a `header` or `footer` nested inside another region, or a region that is also a button.
+
+### sitemap.xml for your tour
+
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.16/image-3.png)
+
+Switch on **Generate sitemap.xml** in Export &amp; Publish, enter the address where the tour will be hosted, and your export gains a `sitemap.xml` listing every panorama page plus a `robots.txt` pointing at it. Needs **Create individual panorama URLs**, since without it the whole tour is a single address.
+
+### Heading levels in skin text (improved)
+
+Headings in skin text now sit below your tour's own structure: a skin **Heading 1** becomes an `h3` rather than competing with the tour title. Text does not change size. A heading whose text resolves to nothing — a token with no value behind it — is no longer written out as an empty heading.
+
+### Keyboard focus ring on polygon hotspots
+
+A polygon hotspot a keyboard visitor has reached now draws a ring in your accessibility focus colour, sitting just outside the polygon's own outline instead of covering it.
+
+### Hide a video
+
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.16/image-5.png)
+
+Add a **Hide video** button to a video component's controls, so visitors can put a clip out of the way and bring it back. Turn on **Remember choice** to keep that decision on their next visit.
+
+### Fixes
+
+- Exported tours lost the escapes in Tailwind class names such as `left-1/2`, which made the browser drop those rules and left pins and centred elements out of position
+- Focus outlines in exported tours appeared on mouse clicks as well as keyboard focus; they now follow `:focus-visible` only
+
 ## 0.2.15
 
 ### Fluid font sizes with clamp() and calc() (improved)
