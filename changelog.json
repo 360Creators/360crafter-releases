@@ -2,6 +2,20 @@
   "markdown": "https://360creators.github.io/360crafter-releases/changelog.md",
   "versions": [
     {
+      "version": "0.2.15",
+      "date": "2026-10-09",
+      "cards": [
+        {
+          "id": "0.2.15/fluid-font-sizes-with-clamp-and-calc",
+          "title": "Fluid font sizes with clamp() and calc()",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "For design experts. Make text and boxes scale with the screen instead of jumping between breakpoints. The text component's **Font Size** now takes `clamp()`, `min()`, `max()` and `calc()` as well as a plain number, and **Size**, **Min Size** and **Max Size** accept the same expressions.\n\n- Type `clamp(1rem, 0.9rem + 0.5vw, 1.25rem)` for text that grows with the screen between two limits\n- Use `rem`, `em`, `vw`, `vh` and `vmin` in any of these fields, for example `12rem` or `min(200px, 18vh)`\n- Combine them in the Size field: `calc(100% - 2rem) auto` sets the width and leaves the height alone\n- Numbers and percentages work as before; an invalid expression is not saved",
+          "images": []
+        }
+      ]
+    },
+    {
       "version": "0.2.14",
       "date": "2026-10-08",
       "cards": [

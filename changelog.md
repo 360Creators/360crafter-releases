@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.2.15
+
+### Fluid font sizes with clamp() and calc() (improved)
+
+For design experts. Make text and boxes scale with the screen instead of jumping between breakpoints. The text component's **Font Size** now takes `clamp()`, `min()`, `max()` and `calc()` as well as a plain number, and **Size**, **Min Size** and **Max Size** accept the same expressions.
+
+- Type `clamp(1rem, 0.9rem + 0.5vw, 1.25rem)` for text that grows with the screen between two limits
+- Use `rem`, `em`, `vw`, `vh` and `vmin` in any of these fields, for example `12rem` or `min(200px, 18vh)`
+- Combine them in the Size field: `calc(100% - 2rem) auto` sets the width and leaves the height alone
+- Numbers and percentages work as before; an invalid expression is not saved
+
 ## 0.2.14
 
 ### New skin component: PDF
