@@ -1,5 +1,30 @@
 # Changelog
 
+## 0.2.19
+
+### Preview on multiple devices
+
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.19/image.png)
+
+Use the arrow beside **Preview** to open the built-in **360Crafter** preview, your default browser, an installed browser, or a **Phone or tablet…** preview. Scan the QR code on another device on the same network to preview locally without publishing to staging. Super easy to check your edits on different devices simultenously!
+
+Start from your current panorama and camera position, skipping the loading screen, or enable **Full preview from start** to test the tour entrance. **Open in private mode** opens supported browsers in a private window; unsupported browsers are disabled while it is on.
+
+### Keep your previews in sync
+
+Local browser and device previews update as you edit. Enable **Sync views across devices** to navigate and look around from either 360Crafter or a connected preview, with the other views following along.
+
+Skin panels open and close together, including images linked to the hotspot you clicked. Image zoom and pan, PDF zoom, page changes, fit mode and the part of the PDF you are looking at stay in sync across different screen sizes.
+
+### Fixes
+
+- Improved hotspot rendering in Safari and sharpened small text and icon hotspots in Firefox.
+- Fixed taps on HTML hotspots and embedded content on iPad, and improved keyboard focus into embedded players in Firefox.
+- Pressing Escape inside a skin component's controls returns focus to the component without also closing its popup.
+- PDFs keep the current page visible while a zoomed view redraws, reducing flicker.
+- Image fullscreen controls work with touch activation on iPad.
+- Panorama settings follow the panorama currently displayed after navigating through a hotspot.
+
 ## 0.2.18
 
 ### Smaller panorama page exports (improved)
