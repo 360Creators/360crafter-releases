@@ -1,5 +1,20 @@
 # Changelog
 
+## 0.2.18
+
+### Smaller panorama page exports (improved)
+
+Exports now store tour data in one shared file instead of repeating it inside every panorama page. Tours with a page for each panorama take up less space and upload less duplicated data, while keeping their existing panorama URLs and accessibility outlines.
+
+### Lower panorama memory use (improved)
+
+The viewer keeps fewer panorama textures in memory and loads fewer linked panoramas ahead of time, with smaller limits on devices with limited memory.
+
+### Fixes
+
+- Pressing Enter on an HTML skin component can now move focus into an embedded iframe so its controls can be reached by keyboard. Keyboard behavior inside the frame is controlled by the embedded content.
+- Text retains its configured opacity in preview and exported tours instead of automatically appearing dimmer when it has no actions.
+
 ## 0.2.17
 
 ### Follow export progress (improved)

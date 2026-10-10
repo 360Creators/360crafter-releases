@@ -2,6 +2,36 @@
   "markdown": "https://360creators.github.io/360crafter-releases/changelog.md",
   "versions": [
     {
+      "version": "0.2.18",
+      "date": "2026-10-10",
+      "cards": [
+        {
+          "id": "0.2.18/smaller-panorama-page-exports",
+          "title": "Smaller panorama page exports",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "Exports now store tour data in one shared file instead of repeating it inside every panorama page. Tours with a page for each panorama take up less space and upload less duplicated data, while keeping their existing panorama URLs and accessibility outlines.",
+          "images": []
+        },
+        {
+          "id": "0.2.18/lower-panorama-memory-use",
+          "title": "Lower panorama memory use",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "The viewer keeps fewer panorama textures in memory and loads fewer linked panoramas ahead of time, with smaller limits on devices with limited memory.",
+          "images": []
+        },
+        {
+          "id": "0.2.18/fixes",
+          "title": "Fixes",
+          "badge": "Fixed",
+          "kind": "fixes",
+          "body": "- Pressing Enter on an HTML skin component can now move focus into an embedded iframe so its controls can be reached by keyboard. Keyboard behavior inside the frame is controlled by the embedded content.\n- Text retains its configured opacity in preview and exported tours instead of automatically appearing dimmer when it has no actions.",
+          "images": []
+        }
+      ]
+    },
+    {
       "version": "0.2.17",
       "date": "2026-10-10",
       "cards": [
