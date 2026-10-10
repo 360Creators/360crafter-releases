@@ -1,5 +1,42 @@
 # Changelog
 
+## 0.2.17
+
+### Follow export progress (improved)
+
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.17/image.png)
+
+The export button now shows progress while the tour is prepared, uploaded and packaged. It prevents duplicate exports while one is running.
+
+### Hotspots on iPhone and iPad (improved)
+
+Fixed hotspots retain their position and orientation on iPhone and iPad, including their X, Y and Z rotations. Small icons render more sharply, and hotspot backgrounds, callout lines and animation colours display more consistently.
+
+### Smoother image and PDF zoom (improved)
+
+Pinch, use a trackpad or scroll the mouse wheel to zoom smoothly into images and PDFs. Drag with the mouse to explore an enlarged document. Zoomed PDFs redraw the visible area at high resolution so text and fine lines stay sharp after zooming.
+
+PDF components now include **Max zoom** and **Zoom step** settings for controlling the zoom limit and the increments used by the zoom buttons.
+
+### Choose where a box responds to clicks
+
+In a Box's Actions tab, choose **Entire box** to make its text and icons part of the same button, or **Background only** to leave child components independently interactive. Selecting **Dialog** automatically switches the box to **Background only**.
+
+The hand cursor stays consistent across decorative children in an **Entire box** button.
+
+### Control zoom in a Media viewer (such as for floorplans)
+
+Use **Enable zooming** to choose whether visitors can zoom inside a Media viewer component. Zooming starts enabled and can be disabled independently of the other interaction settings.
+
+### Fixes
+
+- Camera drags across hotspot surfaces no longer activate their click actions; click-triggered callouts wait until release.
+- Hidden hotspots and empty areas around rotated hotspots no longer steal floor clicks.
+- Hidden presenter videos let camera drags and clicks pass through, while their restore button remains usable.
+- Visible presenters allow camera dragging without taking over video controls or dialogs.
+- Responsive embedded videos fill their available hotspot space on iPad.
+- Reduced panorama tile artefacts, stray off-screen hotspots and sticky touch hover effects on mobile devices.
+
 ## 0.2.16
 
 ### Screen-reader outline of your tour

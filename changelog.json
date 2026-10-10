@@ -2,6 +2,65 @@
   "markdown": "https://360creators.github.io/360crafter-releases/changelog.md",
   "versions": [
     {
+      "version": "0.2.17",
+      "date": "2026-10-10",
+      "cards": [
+        {
+          "id": "0.2.17/follow-export-progress",
+          "title": "Follow export progress",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "The export button now shows progress while the tour is prepared, uploaded and packaged. It prevents duplicate exports while one is running.",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.2.17/image.png",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "id": "0.2.17/hotspots-on-iphone-and-ipad",
+          "title": "Hotspots on iPhone and iPad",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "Fixed hotspots retain their position and orientation on iPhone and iPad, including their X, Y and Z rotations. Small icons render more sharply, and hotspot backgrounds, callout lines and animation colours display more consistently.",
+          "images": []
+        },
+        {
+          "id": "0.2.17/smoother-image-and-pdf-zoom",
+          "title": "Smoother image and PDF zoom",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "Pinch, use a trackpad or scroll the mouse wheel to zoom smoothly into images and PDFs. Drag with the mouse to explore an enlarged document. Zoomed PDFs redraw the visible area at high resolution so text and fine lines stay sharp after zooming.\n\nPDF components now include **Max zoom** and **Zoom step** settings for controlling the zoom limit and the increments used by the zoom buttons.",
+          "images": []
+        },
+        {
+          "id": "0.2.17/choose-where-a-box-responds-to-clicks",
+          "title": "Choose where a box responds to clicks",
+          "badge": "New",
+          "kind": "feature",
+          "body": "In a Box's Actions tab, choose **Entire box** to make its text and icons part of the same button, or **Background only** to leave child components independently interactive. Selecting **Dialog** automatically switches the box to **Background only**.\n\nThe hand cursor stays consistent across decorative children in an **Entire box** button.",
+          "images": []
+        },
+        {
+          "id": "0.2.17/control-zoom-in-a-media-viewer-such-as-for-floorplans",
+          "title": "Control zoom in a Media viewer (such as for floorplans)",
+          "badge": "New",
+          "kind": "feature",
+          "body": "Use **Enable zooming** to choose whether visitors can zoom inside a Media viewer component. Zooming starts enabled and can be disabled independently of the other interaction settings.",
+          "images": []
+        },
+        {
+          "id": "0.2.17/fixes",
+          "title": "Fixes",
+          "badge": "Fixed",
+          "kind": "fixes",
+          "body": "- Camera drags across hotspot surfaces no longer activate their click actions; click-triggered callouts wait until release.\n- Hidden hotspots and empty areas around rotated hotspots no longer steal floor clicks.\n- Hidden presenter videos let camera drags and clicks pass through, while their restore button remains usable.\n- Visible presenters allow camera dragging without taking over video controls or dialogs.\n- Responsive embedded videos fill their available hotspot space on iPad.\n- Reduced panorama tile artefacts, stray off-screen hotspots and sticky touch hover effects on mobile devices.",
+          "images": []
+        }
+      ]
+    },
+    {
       "version": "0.2.16",
       "date": "2026-10-09",
       "cards": [
