@@ -2,6 +2,84 @@
   "markdown": "https://360creators.github.io/360crafter-releases/changelog.md",
   "versions": [
     {
+      "version": "0.2.21",
+      "date": "2026-10-13",
+      "cards": [
+        {
+          "id": "0.2.21/more-control-over-hotspot-styles",
+          "title": "More control over hotspot styles",
+          "badge": "New",
+          "kind": "feature",
+          "body": "Hotspot style presets now keep explicit values, including values that happen to match defaults, so preset membership and state-specific overrides remain visible and editable. Hover, active and visited states can now carry more appearance details such as rounding, inner shadows and backdrop filters, while preserving the correct inherited values in the editor and viewer.",
+          "images": []
+        },
+        {
+          "id": "0.2.21/cleaner-properties-panels",
+          "title": "Cleaner properties panels",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "The hotspot properties panel now uses consistent compact controls and spacing across Icon, Appearance, Callout and Tooltip sections. Boolean switches align at the start of their control column, compact numeric inputs use flat styling, and preview mode restores the selected hotspot when returning to the editor.",
+          "images": []
+        },
+        {
+          "id": "0.2.21/cms-and-editor-reliability",
+          "title": "CMS and editor reliability",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "CMS field references and editor state handling have been tightened up, with additional coverage for hotspot facing and properties-panel behaviour. Hover surfaces now keep stable hit areas while their visual state changes.",
+          "images": []
+        }
+      ]
+    },
+    {
+      "version": "0.2.20",
+      "date": null,
+      "cards": [
+        {
+          "id": "0.2.20/record-audio-for-play-audio-actions",
+          "title": "Record audio for Play Audio actions",
+          "badge": "New",
+          "kind": "feature",
+          "body": "Press the microphone button beside **Audio file** in a **Play Audio** action to record a clip right in the editor. Pick a microphone, record, then trim it on a waveform and switch on **Enhance voice** to cut rumble and hiss, add clarity and even out the volume. Flip the switch while the clip plays to hear the difference straight away.\n\nThe recorder is a small floating panel at the bottom right that you can drag anywhere, so you can keep looking around the panorama while you speak. Press **Space** to play and pause, and click the waveform to jump to a spot.",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.2.20/image-2.png",
+              "caption": ""
+            },
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.2.20/image.png",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "id": "0.2.20/edit-panoramas",
+          "title": "Edit panoramas",
+          "badge": "New",
+          "kind": "feature",
+          "body": "Panorama cards on the **Assets** page now have an **Edit** button. Rotate the panorama with the offset slider, paint over objects with **Remove object** to fill them in from their surroundings, or **Blur** them out. Switch between the flat picture and a **360°** view and paint in either, zoom in for detail, and undo with Cmd/Ctrl+Z. The result is saved as a new version, so the original is always there to go back to.",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.2.20/image-3.png",
+              "caption": ""
+            },
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.2.20/image-4.png",
+              "caption": ""
+            },
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.2.20/image-5.png",
+              "caption": ""
+            },
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.2.20/image-6.png",
+              "caption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
       "version": "0.2.19",
       "date": "2026-10-10",
       "cards": [

@@ -1,5 +1,41 @@
 # Changelog
 
+## 0.2.21
+
+### More control over hotspot styles
+
+Hotspot style presets now keep explicit values, including values that happen to match defaults, so preset membership and state-specific overrides remain visible and editable. Hover, active and visited states can now carry more appearance details such as rounding, inner shadows and backdrop filters, while preserving the correct inherited values in the editor and viewer.
+
+### Cleaner properties panels (improved)
+
+The hotspot properties panel now uses consistent compact controls and spacing across Icon, Appearance, Callout and Tooltip sections. Boolean switches align at the start of their control column, compact numeric inputs use flat styling, and preview mode restores the selected hotspot when returning to the editor.
+
+### CMS and editor reliability (improved)
+
+CMS field references and editor state handling have been tightened up, with additional coverage for hotspot facing and properties-panel behaviour. Hover surfaces now keep stable hit areas while their visual state changes.
+
+## 0.2.20
+
+### Record audio for Play Audio actions
+
+https://youtu.be/JjmZ5ALBm8A
+
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.20/image-2.png)
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.20/image.png)
+
+Press the microphone button beside **Audio file** in a **Play Audio** action to record a clip right in the editor. Pick a microphone, record, then trim it on a waveform and switch on **Enhance voice** to cut rumble and hiss, add clarity and even out the volume. Flip the switch while the clip plays to hear the difference straight away.
+
+The recorder is a small floating panel at the bottom right that you can drag anywhere, so you can keep looking around the panorama while you speak. Press **Space** to play and pause, and click the waveform to jump to a spot.
+
+### Edit panoramas
+
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.20/image-3.png)
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.20/image-4.png)
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.20/image-5.png)
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.20/image-6.png)
+
+Panorama cards on the **Assets** page now have an **Edit** button. Rotate the panorama with the offset slider, paint over objects with **Remove object** to fill them in from their surroundings, or **Blur** them out. Switch between the flat picture and a **360°** view and paint in either, zoom in for detail, and undo with Cmd/Ctrl+Z. The result is saved as a new version, so the original is always there to go back to.
+
 ## 0.2.19
 
 ### Preview on multiple devices
