@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.2.22
+
+### Custom HTML skin components follow the tour (improved)
+
+A Custom HTML skin component now updates as soon as the viewer navigates. Tokens such as `[panorama.name]` or a number field like `[panorama.step]` are re-read when the panorama changes, and also the moment a click asks for a new panorama, so you can build a progress timeline or a "you are here" indicator that reacts without leaving preview.
+
+### Smooth CSS transitions in Custom HTML (improved)
+
+When a token's value changes, Custom HTML now updates the existing elements instead of rebuilding them, so CSS `transition` and `animation` rules run. A progress bar driven by a custom property slides to its new position, and an open `<details>` card stays open.
+
+### Fixes
+
+- The blue selection outline of a skin component no longer shows in preview when the component was still selected in the editor.
+
 ## 0.2.21
 
 ### More control over hotspot styles

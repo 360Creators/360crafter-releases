@@ -2,6 +2,36 @@
   "markdown": "https://360creators.github.io/360crafter-releases/changelog.md",
   "versions": [
     {
+      "version": "0.2.22",
+      "date": "2026-10-14",
+      "cards": [
+        {
+          "id": "0.2.22/custom-html-skin-components-follow-the-tour",
+          "title": "Custom HTML skin components follow the tour",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "A Custom HTML skin component now updates as soon as the viewer navigates. Tokens such as `[panorama.name]` or a number field like `[panorama.step]` are re-read when the panorama changes, and also the moment a click asks for a new panorama, so you can build a progress timeline or a \"you are here\" indicator that reacts without leaving preview.",
+          "images": []
+        },
+        {
+          "id": "0.2.22/smooth-css-transitions-in-custom-html",
+          "title": "Smooth CSS transitions in Custom HTML",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "When a token's value changes, Custom HTML now updates the existing elements instead of rebuilding them, so CSS `transition` and `animation` rules run. A progress bar driven by a custom property slides to its new position, and an open `<details>` card stays open.",
+          "images": []
+        },
+        {
+          "id": "0.2.22/fixes",
+          "title": "Fixes",
+          "badge": "Fixed",
+          "kind": "fixes",
+          "body": "- The blue selection outline of a skin component no longer shows in preview when the component was still selected in the editor.",
+          "images": []
+        }
+      ]
+    },
+    {
       "version": "0.2.21",
       "date": "2026-10-13",
       "cards": [
