@@ -1,5 +1,21 @@
 # Changelog
 
+## 0.2.23
+
+### Video skin component continues where it stopped
+
+A skin video component has a new **Resume on return** switch, under Loop, Muted and Autoplay. When it is on, a narrator in video skin component that is hidden while the visitor is in a panorama comes back paused, and pressing play continues from where it stopped instead of starting over. It is off by default, so existing tours keep autoplaying from the start.
+
+### Keyboard focus finds every hotspot group (improved)
+
+Tabbing to a hotspot group now turns the camera to it even when the group is behind the viewer, and centres the group on screen instead of leaning to one side. A group spread wider than the screen turns to its biggest cluster of hotspots, and the focus ring surrounds that cluster.
+
+### Fixes
+
+- The focus ring on the video narrator, other skin components and polygon hotspots now has the same thick outer and thin inner yellow line as every other focus ring.
+- The focus ring on a Custom HTML component fits the content it holds, such as an embedded video, instead of leaving empty space below it.
+- Tabbing through the PDF viewer's controls no longer stops on the document itself, and Tab from the last control wraps back to the first.
+
 ## 0.2.22
 
 ### Custom HTML skin components follow the tour (improved)

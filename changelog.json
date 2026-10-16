@@ -2,6 +2,36 @@
   "markdown": "https://360creators.github.io/360crafter-releases/changelog.md",
   "versions": [
     {
+      "version": "0.2.23",
+      "date": "2026-10-16",
+      "cards": [
+        {
+          "id": "0.2.23/video-skin-component-continues-where-it-stopped",
+          "title": "Video skin component continues where it stopped",
+          "badge": "New",
+          "kind": "feature",
+          "body": "A skin video component has a new **Resume on return** switch, under Loop, Muted and Autoplay. When it is on, a narrator in video skin component that is hidden while the visitor is in a panorama comes back paused, and pressing play continues from where it stopped instead of starting over. It is off by default, so existing tours keep autoplaying from the start.",
+          "images": []
+        },
+        {
+          "id": "0.2.23/keyboard-focus-finds-every-hotspot-group",
+          "title": "Keyboard focus finds every hotspot group",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "Tabbing to a hotspot group now turns the camera to it even when the group is behind the viewer, and centres the group on screen instead of leaning to one side. A group spread wider than the screen turns to its biggest cluster of hotspots, and the focus ring surrounds that cluster.",
+          "images": []
+        },
+        {
+          "id": "0.2.23/fixes",
+          "title": "Fixes",
+          "badge": "Fixed",
+          "kind": "fixes",
+          "body": "- The focus ring on the video narrator, other skin components and polygon hotspots now has the same thick outer and thin inner yellow line as every other focus ring.\n- The focus ring on a Custom HTML component fits the content it holds, such as an embedded video, instead of leaving empty space below it.\n- Tabbing through the PDF viewer's controls no longer stops on the document itself, and Tab from the last control wraps back to the first.",
+          "images": []
+        }
+      ]
+    },
+    {
       "version": "0.2.22",
       "date": "2026-10-14",
       "cards": [
