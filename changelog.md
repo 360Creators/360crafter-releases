@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.2.25
+
+### Every hotspot has an accessible name (improved)
+
+Icon and Custom HTML hotspots now carry their Accessibility title as their name, so screen readers, voice control ("click This Awesome Hotspot") and checkers like WAVE no longer report them as empty buttons. Hotspots switched to **Decorative** are hidden from assistive technology and skipped by Tab.
+
 ## 0.2.24
 
 ### Fixes

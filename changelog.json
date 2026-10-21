@@ -2,6 +2,20 @@
   "markdown": "https://360creators.github.io/360crafter-releases/changelog.md",
   "versions": [
     {
+      "version": "0.2.25",
+      "date": "2026-10-21",
+      "cards": [
+        {
+          "id": "0.2.25/every-hotspot-has-an-accessible-name",
+          "title": "Every hotspot has an accessible name",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "Icon and Custom HTML hotspots now carry their Accessibility title as their name, so screen readers, voice control (\"click This Awesome Hotspot\") and checkers like WAVE no longer report them as empty buttons. Hotspots switched to **Decorative** are hidden from assistive technology and skipped by Tab.",
+          "images": []
+        }
+      ]
+    },
+    {
       "version": "0.2.24",
       "date": "2026-10-21",
       "cards": [
