@@ -2,6 +2,20 @@
   "markdown": "https://360creators.github.io/360crafter-releases/changelog.md",
   "versions": [
     {
+      "version": "0.2.24",
+      "date": "2026-10-21",
+      "cards": [
+        {
+          "id": "0.2.24/fixes",
+          "title": "Fixes",
+          "badge": "Fixed",
+          "kind": "fixes",
+          "body": "- Importing 360Crafter projects",
+          "images": []
+        }
+      ]
+    },
+    {
       "version": "0.2.23",
       "date": "2026-10-16",
       "cards": [

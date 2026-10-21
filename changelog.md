@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.2.24
+
+### Fixes
+
+- Importing 360Crafter projects
+
 ## 0.2.23
 
 ### Video skin component continues where it stopped
