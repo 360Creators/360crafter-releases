@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.2.26
+
+### Panorama names on the thumbnails in the CMS (improved)
+
+The **Linked Panorama** column in the Hotspots and Group Hotspots tables now shows each panorama's name on top of its thumbnail, so you can tell panoramas apart without widening the column. Long names wrap to two lines, and hovering shows the full name.
+
+### Hotspot Type in the Hotspots table (improved)
+
+The Hotspots table has a **Hotspot Type** column again, at the far right. It is a select field with the options text, icon, html and video, so you can filter, group and sort hotspots by type, or pick a new type for a hotspot right in the table.
+
+### Filter select fields by their options (improved)
+
+When you filter a table on a select field, the value is now a dropdown of that field's options instead of a box to type in.
+
 ## 0.2.25
 
 ### Every hotspot has an accessible name (improved)

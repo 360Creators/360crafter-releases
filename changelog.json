@@ -2,6 +2,36 @@
   "markdown": "https://360creators.github.io/360crafter-releases/changelog.md",
   "versions": [
     {
+      "version": "0.2.26",
+      "date": "2026-10-22",
+      "cards": [
+        {
+          "id": "0.2.26/panorama-names-on-the-thumbnails-in-the-cms",
+          "title": "Panorama names on the thumbnails in the CMS",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "The **Linked Panorama** column in the Hotspots and Group Hotspots tables now shows each panorama's name on top of its thumbnail, so you can tell panoramas apart without widening the column. Long names wrap to two lines, and hovering shows the full name.",
+          "images": []
+        },
+        {
+          "id": "0.2.26/hotspot-type-in-the-hotspots-table",
+          "title": "Hotspot Type in the Hotspots table",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "The Hotspots table has a **Hotspot Type** column again, at the far right. It is a select field with the options text, icon, html and video, so you can filter, group and sort hotspots by type, or pick a new type for a hotspot right in the table.",
+          "images": []
+        },
+        {
+          "id": "0.2.26/filter-select-fields-by-their-options",
+          "title": "Filter select fields by their options",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "When you filter a table on a select field, the value is now a dropdown of that field's options instead of a box to type in.",
+          "images": []
+        }
+      ]
+    },
+    {
       "version": "0.2.25",
       "date": "2026-10-21",
       "cards": [
