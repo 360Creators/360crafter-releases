@@ -2,6 +2,20 @@
   "markdown": "https://360creators.github.io/360crafter-releases/changelog.md",
   "versions": [
     {
+      "version": "0.2.27",
+      "date": "2026-10-23",
+      "cards": [
+        {
+          "id": "0.2.27/360crafter-is-now-free-to-use",
+          "title": "360Crafter is now free to use",
+          "badge": "New",
+          "kind": "feature",
+          "body": "The 14-day trial is gone. 360Crafter is now free to use with unlimited projects to craft, the app never locks and it contains 1 project to export as many times needed showing a 'Made with 360Crafter' badge on the exported tour.\n\nMake it work for your project and then make your decision to purchase a license.",
+          "images": []
+        }
+      ]
+    },
+    {
       "version": "0.2.26",
       "date": "2026-10-22",
       "cards": [

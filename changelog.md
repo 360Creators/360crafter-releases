@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.2.27
+
+### 360Crafter is now free to use
+
+The 14-day trial is gone. 360Crafter is now free to use with unlimited projects to craft, the app never locks and it contains 1 project to export as many times needed showing a 'Made with 360Crafter' badge on the exported tour.
+
+Make it work for your project and then make your decision to purchase a license.
+
 ## 0.2.26
 
 ### Panorama names on the thumbnails in the CMS (improved)
