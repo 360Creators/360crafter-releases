@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.2.28
+
+### Panorama settings in a bar at the bottom (improved)
+
+![The HOTSPOT and PANORAMA tabs are replaced by a PANORAMA bar at the bottom of the properties panel](https://360creators.github.io/360crafter-releases/assets/v0.2.28/panorama-dock.png)
+
+Instead of PANORAMA being in tabs on top, it's now located at the bottom.
+
 ## 0.2.27
 
 ### 360Crafter is now free to use

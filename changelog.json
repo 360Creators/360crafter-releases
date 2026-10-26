@@ -2,6 +2,25 @@
   "markdown": "https://360creators.github.io/360crafter-releases/changelog.md",
   "versions": [
     {
+      "version": "0.2.28",
+      "date": "2026-10-26",
+      "cards": [
+        {
+          "id": "0.2.28/panorama-settings-in-a-bar-at-the-bottom",
+          "title": "Panorama settings in a bar at the bottom",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "Instead of PANORAMA being in tabs on top, it's now located at the bottom.",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.2.28/panorama-dock.png",
+              "caption": "The HOTSPOT and PANORAMA tabs are replaced by a PANORAMA bar at the bottom of the properties panel"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "version": "0.2.27",
       "date": "2026-10-23",
       "cards": [
