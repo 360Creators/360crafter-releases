@@ -2,6 +2,98 @@
   "markdown": "https://360creators.github.io/360crafter-releases/changelog.md",
   "versions": [
     {
+      "version": "0.2.29",
+      "date": "2026-10-28",
+      "cards": [
+        {
+          "id": "0.2.29/experimental-features",
+          "title": "Experimental features",
+          "badge": "New",
+          "kind": "feature",
+          "body": "User preferences has a new Experimental features section. Turn it on to try features that are still being built: 3D models, generating a 3D model from panoramas and multiple languages. They are off by default and apply to this device only.",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.2.29/experimental-features.png",
+              "caption": "Experimental features in User preferences, with switches for 3D models, generating a 3D model from panoramas and multiple languages"
+            }
+          ]
+        },
+        {
+          "id": "0.2.29/generate-a-3d-dollhouse-from-panoramas",
+          "title": "Generate a 3D dollhouse from panoramas",
+          "badge": "Experimental",
+          "kind": "feature",
+          "body": "Select one or more panoramas, right-click and choose Generate 3D model. 360Crafter finds the walls, floor and ceiling and paints them from your panoramas into a dollhouse model.\n\n- Place each panorama on the floor plan and drag walls and corners until the lines match the picture.\n- Outline detail goes from a simple box to every recess the panoramas show.\n- Draw tables and counters as blocks so they stand up in the model.\n- Right-click the model and choose Edit 3D model to change it later. The scene keeps its name, hotspots and settings.",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.2.29/generate-3d-model.png",
+              "caption": "The Generate 3D model dialog with two panoramas placed on the floor plan and their floor and ceiling lines on the picture"
+            }
+          ]
+        },
+        {
+          "id": "0.2.29/walk-through-the-3d-model",
+          "title": "Walk through the 3D model",
+          "badge": "Experimental",
+          "kind": "feature",
+          "body": "Navigate actions have a new transition, Walk through 3D model. Instead of fading, the camera moves through the generated model to the next panorama and arrives facing the way it went. Turn on Turn first to face the next panorama before moving.",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.2.29/walk-through.png",
+              "caption": "Halfway through a walk-through from one panorama to the next"
+            }
+          ]
+        },
+        {
+          "id": "0.2.29/hotspots-placed-by-the-3d-model",
+          "title": "Hotspots placed by the 3D model",
+          "badge": "Experimental",
+          "kind": "feature",
+          "body": "When you generate or update a 3D model, it can add the hotspots for you:\n\n- On the model, a hotspot where each panorama was taken. Clicking it moves you into that panorama.\n- In each panorama, hotspots to the panoramas next to it, using the walk-through.\n\nThey sit exactly where the panoramas were taken. To move them, move the panorama on the floor plan and update the model.",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.2.29/dollhouse-hotspots.png",
+              "caption": "A generated 3D model with a hotspot where each panorama was taken"
+            }
+          ]
+        },
+        {
+          "id": "0.2.29/multi-language-translations",
+          "title": "Multi language translations",
+          "badge": "New",
+          "kind": "feature",
+          "body": "The language button next to the preview button now opens the Languages page, where you add languages and edit translations in one place. It shows as soon as the Languages module is on, also in preview, and the Languages item is gone from the left bar.",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.2.29/language-button.png",
+              "caption": "The language button next to the preview button, open with English, Nederlands and Manage translations"
+            }
+          ]
+        },
+        {
+          "id": "0.2.29/panorama-bar-starts-closed",
+          "title": "Panorama bar starts closed",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "The PANORAMA bar now starts closed when you open the editor. Click it to see the panorama settings. Selecting a hotspot slides them down again.",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.2.29/panorama-bar-closed.png",
+              "caption": "The PANORAMA bar closed at the bottom of the properties panel"
+            }
+          ]
+        },
+        {
+          "id": "0.2.29/fixes",
+          "title": "Fixes",
+          "badge": "Fixed",
+          "kind": "fixes",
+          "body": "- Navigate actions on a 3D model scene now work.\n- Leaving the Languages page with unsaved translations now asks before throwing them away.",
+          "images": []
+        }
+      ]
+    },
+    {
       "version": "0.2.28",
       "date": "2026-10-26",
       "cards": [

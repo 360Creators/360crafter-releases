@@ -1,5 +1,58 @@
 # Changelog
 
+## 0.2.29
+
+### Experimental features
+
+![Experimental features in User preferences, with switches for 3D models, generating a 3D model from panoramas and multiple languages](https://360creators.github.io/360crafter-releases/assets/v0.2.29/experimental-features.png)
+
+User preferences has a new Experimental features section. Turn it on to try features that are still being built: 3D models, generating a 3D model from panoramas and multiple languages. They are off by default and apply to this device only.
+
+### Generate a 3D dollhouse from panoramas (experimental)
+
+![The Generate 3D model dialog with two panoramas placed on the floor plan and their floor and ceiling lines on the picture](https://360creators.github.io/360crafter-releases/assets/v0.2.29/generate-3d-model.png)
+
+Select one or more panoramas, right-click and choose Generate 3D model. 360Crafter finds the walls, floor and ceiling and paints them from your panoramas into a dollhouse model.
+
+- Place each panorama on the floor plan and drag walls and corners until the lines match the picture.
+- Outline detail goes from a simple box to every recess the panoramas show.
+- Draw tables and counters as blocks so they stand up in the model.
+- Right-click the model and choose Edit 3D model to change it later. The scene keeps its name, hotspots and settings.
+
+### Walk through the 3D model (experimental)
+
+![Halfway through a walk-through from one panorama to the next](https://360creators.github.io/360crafter-releases/assets/v0.2.29/walk-through.png)
+
+Navigate actions have a new transition, Walk through 3D model. Instead of fading, the camera moves through the generated model to the next panorama and arrives facing the way it went. Turn on Turn first to face the next panorama before moving.
+
+### Hotspots placed by the 3D model (experimental)
+
+![A generated 3D model with a hotspot where each panorama was taken](https://360creators.github.io/360crafter-releases/assets/v0.2.29/dollhouse-hotspots.png)
+
+When you generate or update a 3D model, it can add the hotspots for you:
+
+- On the model, a hotspot where each panorama was taken. Clicking it moves you into that panorama.
+- In each panorama, hotspots to the panoramas next to it, using the walk-through.
+
+They sit exactly where the panoramas were taken. To move them, move the panorama on the floor plan and update the model.
+
+### Multi language translations
+
+![The language button next to the preview button, open with English, Nederlands and Manage translations](https://360creators.github.io/360crafter-releases/assets/v0.2.29/language-button.png)
+
+The language button next to the preview button now opens the Languages page, where you add languages and edit translations in one place. It shows as soon as the Languages module is on, also in preview, and the Languages item is gone from the left bar.
+
+### Panorama bar starts closed (improved)
+
+![The PANORAMA bar closed at the bottom of the properties panel](https://360creators.github.io/360crafter-releases/assets/v0.2.29/panorama-bar-closed.png)
+
+The PANORAMA bar now starts closed when you open the editor. Click it to see the panorama settings. Selecting a hotspot slides them down again.
+
+### Fixes
+
+- Navigate actions on a 3D model scene now work.
+- Leaving the Languages page with unsaved translations now asks before throwing them away.
+
 ## 0.2.28
 
 ### Panorama settings in a bar at the bottom (improved)
