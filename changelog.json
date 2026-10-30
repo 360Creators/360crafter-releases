@@ -2,6 +2,60 @@
   "markdown": "https://360creators.github.io/360crafter-releases/changelog.md",
   "versions": [
     {
+      "version": "0.2.30",
+      "date": "2026-10-30",
+      "cards": [
+        {
+          "id": "0.2.30/large-panoramas-import-without-the-wait",
+          "title": "Large panoramas import without the wait",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "Importing several panoramas wider than 16K now asks once for the whole batch whether to keep full resolution or cap the tiles at 16K, instead of once per file.\n\n- Thumbnails and previews are made in the background, so the editor stays responsive while a batch imports.\n- Tiles for new panoramas are generated while you are not using the editor, one panorama at a time.\n- Export waits for tiles that are still being generated instead of failing.\n- Very large panoramas open faster in the editor and preview, using the smaller version made when they were imported.",
+          "images": []
+        },
+        {
+          "id": "0.2.30/panoramas-find-their-place-in-the-3d-model",
+          "title": "Panoramas find their place in the 3D model",
+          "badge": "Experimental",
+          "kind": "feature",
+          "body": "Panoramas that no hotspot links together used to be lined up in a row on the floor plan. Generate 3D model now finds where each one was taken by matching the walls it sees to the walls the others see, and uses the colours on those walls to tell a room from its mirror image. Linked panoramas are still placed by their hotspots first.",
+          "images": []
+        },
+        {
+          "id": "0.2.30/walk-through-instead-of-slide-to",
+          "title": "Walk-through instead of Slide To",
+          "badge": "Experimental",
+          "kind": "feature",
+          "body": "When the panoramas of a 3D model are already linked with Slide To, Generate 3D model offers to switch those links to the walk-through. Turn the option off and update the model to switch them back; their Slide To settings are kept.",
+          "images": []
+        },
+        {
+          "id": "0.2.30/one-walk-through-duration-for-the-whole-model",
+          "title": "One walk-through duration for the whole model",
+          "badge": "Experimental",
+          "kind": "feature",
+          "body": "Set Walk-through duration in Generate 3D model to time every walk-through between its panoramas at once. Pick a number variable to retime them all later from one place.",
+          "images": []
+        },
+        {
+          "id": "0.2.30/hide-the-right-panel",
+          "title": "Hide the right panel",
+          "badge": "New",
+          "kind": "feature",
+          "body": "Click the small arrow on the left edge of the right panel to fold it away and give the panorama more room. Click the strip to bring it back. 360Crafter remembers your choice.",
+          "images": []
+        },
+        {
+          "id": "0.2.30/fixes",
+          "title": "Fixes",
+          "badge": "Fixed",
+          "kind": "fixes",
+          "body": "- New number variables in seconds are saved in seconds and show up in the list straight away. The Add button saves them without pressing Enter.\n- The transition duration on older hotspots is shown in the Actions panel and used when navigating, instead of the default.\n- Text typed in one hotspot's Duration field no longer shows up on the next hotspot you select.",
+          "images": []
+        }
+      ]
+    },
+    {
       "version": "0.2.29",
       "date": "2026-10-28",
       "cards": [

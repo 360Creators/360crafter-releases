@@ -1,5 +1,38 @@
 # Changelog
 
+## 0.2.30
+
+### Large panoramas import without the wait (improved)
+
+Importing several panoramas wider than 16K now asks once for the whole batch whether to keep full resolution or cap the tiles at 16K, instead of once per file.
+
+- Thumbnails and previews are made in the background, so the editor stays responsive while a batch imports.
+- Tiles for new panoramas are generated while you are not using the editor, one panorama at a time.
+- Export waits for tiles that are still being generated instead of failing.
+- Very large panoramas open faster in the editor and preview, using the smaller version made when they were imported.
+
+### Panoramas find their place in the 3D model (experimental)
+
+Panoramas that no hotspot links together used to be lined up in a row on the floor plan. Generate 3D model now finds where each one was taken by matching the walls it sees to the walls the others see, and uses the colours on those walls to tell a room from its mirror image. Linked panoramas are still placed by their hotspots first.
+
+### Walk-through instead of Slide To (experimental)
+
+When the panoramas of a 3D model are already linked with Slide To, Generate 3D model offers to switch those links to the walk-through. Turn the option off and update the model to switch them back; their Slide To settings are kept.
+
+### One walk-through duration for the whole model (experimental)
+
+Set Walk-through duration in Generate 3D model to time every walk-through between its panoramas at once. Pick a number variable to retime them all later from one place.
+
+### Hide the right panel
+
+Click the small arrow on the left edge of the right panel to fold it away and give the panorama more room. Click the strip to bring it back. 360Crafter remembers your choice.
+
+### Fixes
+
+- New number variables in seconds are saved in seconds and show up in the list straight away. The Add button saves them without pressing Enter.
+- The transition duration on older hotspots is shown in the Actions panel and used when navigating, instead of the default.
+- Text typed in one hotspot's Duration field no longer shows up on the next hotspot you select.
+
 ## 0.2.29
 
 ### Experimental features
