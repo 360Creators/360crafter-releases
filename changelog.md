@@ -1,5 +1,23 @@
 # Changelog
 
+## 0.2.31
+
+### Click a label to see where its value comes from (improved)
+
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.31/image.png)
+
+Click a coloured label in the Design panel, such as Background or Font Color, to see what the setting does and the value each preset gives it, with the one in use on top. Click a preset in the list to switch to it.
+
+- Reset sits in the same popover, next to where you clicked. Option-click on a label still resets it straight away.
+- The colours match the presets at the top of the panel: blue for the preset you are editing, red for one that overrides it, orange for the others.
+- The small x next to coloured labels is gone. Use the x next to your preset's value in the popover instead.
+
+### Inherited text shows as a placeholder (improved)
+
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.31/image-2.png)
+
+When a text hotspot gets its text from another preset, the text field on the preset you are editing stays empty and shows that text in grey. Start typing to give this preset its own text.
+
 ## 0.2.30
 
 ### Large panoramas import without the wait (improved)
