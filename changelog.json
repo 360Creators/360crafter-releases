@@ -2,6 +2,52 @@
   "markdown": "https://360creators.github.io/360crafter-releases/changelog.md",
   "versions": [
     {
+      "version": "0.2.33",
+      "date": "2026-11-03",
+      "cards": [
+        {
+          "id": "0.2.33/fixes",
+          "title": "Fixes",
+          "badge": "Fixed",
+          "kind": "fixes",
+          "body": "- The Assets page no longer fails while it is still loading panoramas.\n- Replacing the file of an uploaded icon from its card in Assets works again.\n- A dropdown in the skin that takes its options from a CMS table lists that table's fields again.",
+          "images": []
+        }
+      ]
+    },
+    {
+      "version": "0.2.32",
+      "date": null,
+      "cards": [
+        {
+          "id": "0.2.32/a-cleaner-project-grid",
+          "title": "A cleaner project grid",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "Projects on the dashboard now show as a thumbnail with the name centred below it, without the card around them.\n\n- Hover a project to show the ... button in the corner of its thumbnail. It opens the same menu as the old gear.\n- The \"Edited ... ago\" line is gone.",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.2.32/image.png",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "id": "0.2.32/back-up-a-project-from-the-dashboard",
+          "title": "Back up a project from the dashboard",
+          "badge": "New",
+          "kind": "feature",
+          "body": "Choose Create Backup with Media in a project's menu to download a ZIP of the project with all its media. It opens Project Settings and starts the backup there as soon as the project has loaded.",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.2.32/image-2.png",
+              "caption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
       "version": "0.2.31",
       "date": "2026-11-02",
       "cards": [

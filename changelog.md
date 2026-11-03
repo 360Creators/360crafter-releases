@@ -1,5 +1,30 @@
 # Changelog
 
+## 0.2.33
+
+### Fixes
+
+- The Assets page no longer fails while it is still loading panoramas.
+- Replacing the file of an uploaded icon from its card in Assets works again.
+- A dropdown in the skin that takes its options from a CMS table lists that table's fields again.
+
+## 0.2.32
+
+### A cleaner project grid (improved)
+
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.32/image.png)
+
+Projects on the dashboard now show as a thumbnail with the name centred below it, without the card around them.
+
+- Hover a project to show the ... button in the corner of its thumbnail. It opens the same menu as the old gear.
+- The "Edited ... ago" line is gone.
+
+### Back up a project from the dashboard
+
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.32/image-2.png)
+
+Choose Create Backup with Media in a project's menu to download a ZIP of the project with all its media. It opens Project Settings and starts the backup there as soon as the project has loaded.
+
 ## 0.2.31
 
 ### Click a label to see where its value comes from (improved)
