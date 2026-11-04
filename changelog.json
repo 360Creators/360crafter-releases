@@ -2,6 +2,28 @@
   "markdown": "https://360creators.github.io/360crafter-releases/changelog.md",
   "versions": [
     {
+      "version": "0.2.34",
+      "date": "2026-11-04",
+      "cards": [
+        {
+          "id": "0.2.34/fixes",
+          "title": "Fixes",
+          "badge": "Fixed",
+          "kind": "fixes",
+          "body": "- Backdrop blur on hotspots shows again in the desktop app.\n- Deleting a skin image, icon or video on the Assets page now removes it. The component stays in place with its media cleared, as with PDFs.\n- Renaming skin assets in bulk on the Assets page no longer shows an error.\n- Double-clicking where hotspots overlap picks the one under the pointer.\n- A backdrop colour set behind the 360 view now shows.\n- Local backups in Project Settings and the version history list load again, and restoring them works.\n- Sections such as Chroma key, Mask, Accessibility and Animation remember whether they were open.\n- Copying and duplicating hotspots in cloud projects works again.\n- Replacing a CMS dataset with a new CSV keeps the file details.\n- Deleting a project stored on your own S3 bucket also removes its files there.\n- Importing a backup with a 3D model no longer points at the other computer's files. The model loads its original file and offers Optimize Model again.",
+          "images": []
+        },
+        {
+          "id": "0.2.34/the-error-screen-says-what-went-wrong",
+          "title": "The error screen says what went wrong",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "When something goes wrong, the error screen now lists the error, where in the app it happened, the page you were on, and your app version and system. A screenshot of it is enough for support to see what happened.\n\n- Copy details puts the same information on your clipboard, to paste into an email.",
+          "images": []
+        }
+      ]
+    },
+    {
       "version": "0.2.33",
       "date": "2026-11-03",
       "cards": [

@@ -1,5 +1,27 @@
 # Changelog
 
+## 0.2.34
+
+### Fixes
+
+- Backdrop blur on hotspots shows again in the desktop app.
+- Deleting a skin image, icon or video on the Assets page now removes it. The component stays in place with its media cleared, as with PDFs.
+- Renaming skin assets in bulk on the Assets page no longer shows an error.
+- Double-clicking where hotspots overlap picks the one under the pointer.
+- A backdrop colour set behind the 360 view now shows.
+- Local backups in Project Settings and the version history list load again, and restoring them works.
+- Sections such as Chroma key, Mask, Accessibility and Animation remember whether they were open.
+- Copying and duplicating hotspots in cloud projects works again.
+- Replacing a CMS dataset with a new CSV keeps the file details.
+- Deleting a project stored on your own S3 bucket also removes its files there.
+- Importing a backup with a 3D model no longer points at the other computer's files. The model loads its original file and offers Optimize Model again.
+
+### The error screen says what went wrong (improved)
+
+When something goes wrong, the error screen now lists the error, where in the app it happened, the page you were on, and your app version and system. A screenshot of it is enough for support to see what happened.
+
+- Copy details puts the same information on your clipboard, to paste into an email.
+
 ## 0.2.33
 
 ### Fixes
