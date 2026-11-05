@@ -2,6 +2,20 @@
   "markdown": "https://360creators.github.io/360crafter-releases/changelog.md",
   "versions": [
     {
+      "version": "0.2.36",
+      "date": "2026-11-05",
+      "cards": [
+        {
+          "id": "0.2.36/fixes",
+          "title": "Fixes",
+          "badge": "Fixed",
+          "kind": "fixes",
+          "body": "- The app no longer shows an error screen when using the navigation rail on the left of the editor.",
+          "images": []
+        }
+      ]
+    },
+    {
       "version": "0.2.35",
       "date": "2026-11-05",
       "cards": [

@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.2.36
+
+### Fixes
+
+- The app no longer shows an error screen when using the navigation rail on the left of the editor.
+
 ## 0.2.35
 
 ### Fixes
