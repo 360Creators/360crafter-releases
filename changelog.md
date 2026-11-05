@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.2.35
+
+### Fixes
+
+- The Tiny Planet intro now plays for its full Hold and Fly-out time in Preview from start, instead of finishing in under a second.  
+Thanks to Jeremy for reporting!
+
 ## 0.2.34
 
 ### Fixes

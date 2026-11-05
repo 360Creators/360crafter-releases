@@ -2,6 +2,20 @@
   "markdown": "https://360creators.github.io/360crafter-releases/changelog.md",
   "versions": [
     {
+      "version": "0.2.35",
+      "date": "2026-11-05",
+      "cards": [
+        {
+          "id": "0.2.35/fixes",
+          "title": "Fixes",
+          "badge": "Fixed",
+          "kind": "fixes",
+          "body": "- The Tiny Planet intro now plays for its full Hold and Fly-out time in Preview from start, instead of finishing in under a second.  \nThanks to Jeremy for reporting!",
+          "images": []
+        }
+      ]
+    },
+    {
       "version": "0.2.34",
       "date": "2026-11-04",
       "cards": [
