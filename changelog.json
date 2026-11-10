@@ -2,6 +2,20 @@
   "markdown": "https://360creators.github.io/360crafter-releases/changelog.md",
   "versions": [
     {
+      "version": "0.2.37",
+      "date": "2026-11-10",
+      "cards": [
+        {
+          "id": "0.2.37/local-ai-assistant",
+          "title": "Local AI assistant",
+          "badge": "Experimental",
+          "kind": "feature",
+          "body": "Design the skin and HTML hotspots in a chat with an AI model that runs on your own computer, through LM Studio or Ollama.\n\nAs a craftsman you keep ownership of your creation, also when using AI.\n\nTurn it on in User Preferences under Experimental features, then pick your server and model.\n\n- Opens from AI in the left side menu\n- Builds boxes, text, icons, images, videos, PDFs, embeds, media views, HTML, CMS lists and the load screen\n- Adds actions such as opening a panorama, showing a menu or playing a video\n- Uses your panoramas, CMS tables, files and hotspots by name\n- Paste or drop screenshots to show what you mean, with a model that can see images\n- Saves a snapshot before every message, and any message can be rolled back from the chat",
+          "images": []
+        }
+      ]
+    },
+    {
       "version": "0.2.36",
       "date": "2026-11-05",
       "cards": [

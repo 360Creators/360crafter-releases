@@ -1,5 +1,22 @@
 # Changelog
 
+## 0.2.37
+
+### Local AI assistant (experimental)
+
+Design the skin and HTML hotspots in a chat with an AI model that runs on your own computer, through LM Studio or Ollama.
+
+As a craftsman you keep ownership of your creation, also when using AI.
+
+Turn it on in User Preferences under Experimental features, then pick your server and model.
+
+- Opens from AI in the left side menu
+- Builds boxes, text, icons, images, videos, PDFs, embeds, media views, HTML, CMS lists and the load screen
+- Adds actions such as opening a panorama, showing a menu or playing a video
+- Uses your panoramas, CMS tables, files and hotspots by name
+- Paste or drop screenshots to show what you mean, with a model that can see images
+- Saves a snapshot before every message, and any message can be rolled back from the chat
+
 ## 0.2.36
 
 ### Fixes
