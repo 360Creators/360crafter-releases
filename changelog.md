@@ -1,5 +1,88 @@
 # Changelog
 
+## 0.2.43
+
+### Retouch the panorama in the hotspot editor
+
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.43/image.png)
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.43/image-2.png)
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.43/image-3.png)
+
+Remove an object or blur a face or a number plate without leaving the hotspot editor. Right-click the panorama and choose Retouch Panorama, or use Retouch panorama in the panorama's properties, then paint over what should go. You see the result in place, with your hotspots on top, and Save keeps it as a new version of the panorama.
+
+- Remove fills the painted area from its surroundings, Blur softens it (Light, Medium or Strong)
+- Hold Space and drag, or pick the hand, to look around while retouching
+- \[ and \] change the brush size, Cmd+Z and Shift+Cmd+Z undo and redo strokes
+
+### Fixes
+
+- Replacing a very large panorama (wider than 16K) no longer leaves the viewer black
+- After replacing a panorama, the viewer no longer shows the old picture once its tiles are rebuilt
+
+## 0.2.42
+
+### Presets redesigned (improved)
+
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.42/image.png)
+
+Presets felt a bit overcomplicated with the "This .. hotspot" preset followed by other custom presets. For that reason the "This .. hotspot" preset got removed and it only shows custom presets. Selecting a custom preset is simply clicking it. Clicking it again unselects it and goes back to editing only that particular hotspot or particular skin component. This way the interface looks much cleaner.
+
+Beside that also:
+
+- Each preset shows how many hotspots, media items or components use it
+- A line under the presets says how many values are set on this item itself, with Reset all
+
+### See what a preset change affects
+
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.42/image-2.png)
+
+While you edit a preset, the bar names how many other items use it. Hover or click that count to list them, grouped by media with the current one first.
+
+- Hover a hotspot in the list to see where it sits on its media's thumbnail
+- Click an item in the list to go straight to it
+
+This way you know immediatly how much impact a change on a preset has and you can immediatly go towards other items that have the same preset without having to think about it.
+
+### Panel toggle in the bottom bar (improved)
+
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.42/image-3.png)
+
+The button that hides and shows the right panel sits at the end of the panel's bottom bar. A folded panel opens again with a click anywhere on its strip.
+
+### Larger panorama editor (improved)
+
+The Edit panorama dialog grows with the window, so the panorama preview is bigger on large screens.
+
+## 0.2.41
+
+### Flatter media list (improved)
+
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.41/image-2.png)
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.41/image-3.png)
+
+Each panorama card shows its number and name in one pill on the image, and the selected one turns blue. The other cards fade back so the selection stands out.
+
+- Scroll the selected panorama out of view and a pill with its name appears; click it to jump back
+- Selected panoramas, hotspots and style scopes share one blue
+
+### Drag a polygon onto the panorama (improved)
+
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.41/image-4.png)
+
+Drag the polygon icon from the add bar onto the panorama and its first point is set where you let go. Click the rest of the points as usual.
+
+### Search the skin tree (improved)
+
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.41/image-5.png)
+
+A search field above the skin components filters the tree by name, keeping each match under its parents. The + menu keeps its own search for adding components.
+
+### Fixes
+
+- Every tooltip in the editor is dark, including the ones that showed up white
+- The New group tooltip is shorter
+- The add component menu no longer shows an Adds inside line
+
 ## 0.2.40
 
 ### One bar to add hotspots (improved)

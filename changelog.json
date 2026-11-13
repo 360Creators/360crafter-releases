@@ -2,6 +2,151 @@
   "markdown": "https://360creators.github.io/360crafter-releases/changelog.md",
   "versions": [
     {
+      "version": "0.2.43",
+      "date": "2026-11-13",
+      "cards": [
+        {
+          "id": "0.2.43/retouch-the-panorama-in-the-hotspot-editor",
+          "title": "Retouch the panorama in the hotspot editor",
+          "badge": "New",
+          "kind": "feature",
+          "body": "Remove an object or blur a face or a number plate without leaving the hotspot editor. Right-click the panorama and choose Retouch Panorama, or use Retouch panorama in the panorama's properties, then paint over what should go. You see the result in place, with your hotspots on top, and Save keeps it as a new version of the panorama.\n\n- Remove fills the painted area from its surroundings, Blur softens it (Light, Medium or Strong)\n- Hold Space and drag, or pick the hand, to look around while retouching\n- \\[ and \\] change the brush size, Cmd+Z and Shift+Cmd+Z undo and redo strokes",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.2.43/image.png",
+              "caption": ""
+            },
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.2.43/image-2.png",
+              "caption": ""
+            },
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.2.43/image-3.png",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "id": "0.2.43/fixes",
+          "title": "Fixes",
+          "badge": "Fixed",
+          "kind": "fixes",
+          "body": "- Replacing a very large panorama (wider than 16K) no longer leaves the viewer black\n- After replacing a panorama, the viewer no longer shows the old picture once its tiles are rebuilt",
+          "images": []
+        }
+      ]
+    },
+    {
+      "version": "0.2.42",
+      "date": null,
+      "cards": [
+        {
+          "id": "0.2.42/presets-redesigned",
+          "title": "Presets redesigned",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "Presets felt a bit overcomplicated with the \"This .. hotspot\" preset followed by other custom presets. For that reason the \"This .. hotspot\" preset got removed and it only shows custom presets. Selecting a custom preset is simply clicking it. Clicking it again unselects it and goes back to editing only that particular hotspot or particular skin component. This way the interface looks much cleaner.\n\nBeside that also:\n\n- Each preset shows how many hotspots, media items or components use it\n- A line under the presets says how many values are set on this item itself, with Reset all",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.2.42/image.png",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "id": "0.2.42/see-what-a-preset-change-affects",
+          "title": "See what a preset change affects",
+          "badge": "New",
+          "kind": "feature",
+          "body": "While you edit a preset, the bar names how many other items use it. Hover or click that count to list them, grouped by media with the current one first.\n\n- Hover a hotspot in the list to see where it sits on its media's thumbnail\n- Click an item in the list to go straight to it\n\nThis way you know immediatly how much impact a change on a preset has and you can immediatly go towards other items that have the same preset without having to think about it.",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.2.42/image-2.png",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "id": "0.2.42/panel-toggle-in-the-bottom-bar",
+          "title": "Panel toggle in the bottom bar",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "The button that hides and shows the right panel sits at the end of the panel's bottom bar. A folded panel opens again with a click anywhere on its strip.",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.2.42/image-3.png",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "id": "0.2.42/larger-panorama-editor",
+          "title": "Larger panorama editor",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "The Edit panorama dialog grows with the window, so the panorama preview is bigger on large screens.",
+          "images": []
+        }
+      ]
+    },
+    {
+      "version": "0.2.41",
+      "date": null,
+      "cards": [
+        {
+          "id": "0.2.41/flatter-media-list",
+          "title": "Flatter media list",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "Each panorama card shows its number and name in one pill on the image, and the selected one turns blue. The other cards fade back so the selection stands out.\n\n- Scroll the selected panorama out of view and a pill with its name appears; click it to jump back\n- Selected panoramas, hotspots and style scopes share one blue",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.2.41/image-2.png",
+              "caption": ""
+            },
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.2.41/image-3.png",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "id": "0.2.41/drag-a-polygon-onto-the-panorama",
+          "title": "Drag a polygon onto the panorama",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "Drag the polygon icon from the add bar onto the panorama and its first point is set where you let go. Click the rest of the points as usual.",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.2.41/image-4.png",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "id": "0.2.41/search-the-skin-tree",
+          "title": "Search the skin tree",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "A search field above the skin components filters the tree by name, keeping each match under its parents. The + menu keeps its own search for adding components.",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.2.41/image-5.png",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "id": "0.2.41/fixes",
+          "title": "Fixes",
+          "badge": "Fixed",
+          "kind": "fixes",
+          "body": "- Every tooltip in the editor is dark, including the ones that showed up white\n- The New group tooltip is shorter\n- The add component menu no longer shows an Adds inside line",
+          "images": []
+        }
+      ]
+    },
+    {
       "version": "0.2.40",
       "date": "2026-11-13",
       "cards": [
