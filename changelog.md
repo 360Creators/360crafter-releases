@@ -1,5 +1,97 @@
 # Changelog
 
+## 0.2.39
+
+### Maps without a map server
+
+![An exported tour drawing its map from its own files](https://360creators.github.io/360crafter-releases/assets/v0.2.39/offline-map.png)
+
+Maps no longer need an API key or an outside map service. The new Light, Dark, White, Grayscale and Black basemaps draw from map data that comes with 360Crafter, and an exported tour carries the map data for its own area.
+
+- Published tours draw their maps with no map server at all
+- The editor shows street detail while online and the world map while offline
+- Exporting a tour with one of these maps needs an internet connection
+- The online basemaps stay available: OpenFreeMap, OpenStreetMap, Wikimedia and Esri satellite
+
+### Choose which map labels show
+
+![Label switches under the basemap](https://360creators.github.io/360crafter-releases/assets/v0.2.39/map-labels.png)
+
+Map Settings has a switch for each kind of label, so a map can show only what the tour needs.
+
+- Road numbers, street names, landmarks, transit, place names and water names
+- Each switch can be part of a media preset
+- Default View now sits at the top of Map Settings
+
+### Fixes
+
+- New maps no longer show "API key required" instead of the map
+- Map thumbnails in the media list show the map again
+
+## 0.2.38
+
+### Calmer, more compact fields (improved)
+
+Fields in the properties panel, the skin panel, the CMS tab and the popups share one compact, flat style without outlines.
+
+- Anchor is a single field that opens the point grid
+- Dialog close buttons are easier to see
+- A new trash icon across the app
+
+### A simpler left side menu
+
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.38/image.png)
+
+The menu on the left is now split in two. Your pages sit at the top: Hotspots, Skin, CMS, Variables and Assets. Tools that open over the page sit at the bottom: AI, Access, Analytics and Settings, with your account below them.
+
+- The logo takes you straight back to the dashboard
+- Add Accessibility, Analytics or the AI assistant with the + above Settings, and hide one again with a right-click
+- Skin, CMS and Variables are always on
+
+### Settings open over your work
+
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.38/image-2.png)
+
+Project settings, User preferences, Accessibility and Analytics now open as a popup, so you stay where you were.
+
+- Settings lists its sections on the left
+- Export options moved to the Export button, so you see them before the tour is built
+- Snapshots and backups are one section, Backups &amp; Snapshots
+- Cmd/Ctrl+Shift+S saves a backup with media
+
+### One account menu
+
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.38/image-3.png)
+
+The avatar menu is the same on the dashboard and in the editor: Preferences, License, About 360Crafter, Support and Sign out.
+
+- A dot on the avatar shows background work such as tile generation
+
+### Add with one +
+
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.38/image-7.png)
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.38/image-5.png)
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.38/image-6.png)
+
+Hotspots, interactive media and skin components are added from a + in their section header, with each option described.
+
+- Double-click empty space in a list to open the menu at your pointer
+- In the skin, hover a box and use its + to add straight inside it
+- New skin components appear in the middle of the view, selected and ready to edit
+- The skin's search and library now live inside its + menu
+
+### Removing a hotspot group (improved)
+
+The trash on a group now asks what you want: Ungroup keeps its hotspots, Delete all removes them with the group.
+
+- Shift+Cmd/Ctrl+G ungroups the selection
+
+### Fixes
+
+- The media search says Search media... now that the list holds more than panoramas.
+- Dragging a skin component to the very top of the tree no longer needs pixel precision.
+- The Normal and Base selectors above the properties panel line up with the panel edges.
+
 ## 0.2.37
 
 ### Local AI assistant (experimental)
