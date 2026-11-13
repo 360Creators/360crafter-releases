@@ -1,5 +1,59 @@
 # Changelog
 
+## 0.2.44
+
+### Variables page redesigned (improved)
+
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.44/variables.png)
+
+Colors, icons and numbers now show as cards: a color as its swatch, an icon as the icon, a number as its value. Each card says whether it belongs to the project or the craftspace, and All, Project and Craftspace filter the page.
+
+- Change a color's scope in its dialog. Moving a shared color to Project makes a copy for this project and leaves the shared one for the others.
+- Renaming or deleting a shared variable asks first, because projects that use it lose it
+- Numbers can be saved without a unit
+
+### Pick a color, name it later
+
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.44/new-color.png)
+
+The color dialog opens on the color picker, with an opacity slider. The name is optional: 360Crafter suggests one from the color you pick, like dark-green or red-50, and uses it if you leave the field empty.
+
+### Import variables from CSS
+
+Click Import CSS on a variables page and paste a stylesheet or choose a .css file. Every color and number custom property in it, like --brand: #11479e, becomes a variable. You see the list first and choose which ones to import.
+
+- rgb() and hsl() colors come in as hex, keeping their opacity
+- References such as var(--stone-950) come in as their value
+- Names that already exist are marked, with the value they replace
+
+### Craftspace variables in the dashboard
+
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.44/craftspace-colors.png)
+
+The Colors, Icons and Numbers pages in the dashboard use the same cards and dialogs as a project's Variables page, and Colors and Numbers can import CSS too.
+
+### Dashboard home
+
+The dashboard opens on Home: your four most recent projects, then a card per craftspace with a few of its projects. The sidebar lists every craftspace, each opening to Projects, Colors, Icons, Numbers and Settings, and Search all projects finds a project in any of them.
+
+- Craftspace settings open inside the dashboard
+- Projects without an image show a 360° placeholder
+
+### Profile picture
+
+Add a profile picture in Preferences. It shows on your avatar in the editor and the dashboard.
+
+### Expand a CMS row (improved)
+
+Hover a row in the CMS and click Expand to edit every field of that record in one dialog, with arrows to move to the previous or next record.
+
+- Hover a row number to select it, Shift-click to select a range, or select all rows from the header
+- Search all tables moved to a search icon next to the view controls
+
+### Fixes
+
+- Deleting a project while offline no longer hangs
+
 ## 0.2.43
 
 ### Retouch the panorama in the hotspot editor
