@@ -2,6 +2,36 @@
   "markdown": "https://360creators.github.io/360crafter-releases/changelog.md",
   "versions": [
     {
+      "version": "0.2.40",
+      "date": "2026-11-13",
+      "cards": [
+        {
+          "id": "0.2.40/one-bar-to-add-hotspots",
+          "title": "One bar to add hotspots",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "The hotspot list has a bar with an icon for each hotspot type. Click an icon to place that hotspot, click it again to cancel, or drag it straight onto the panorama.\n\n- Double-click an empty part of the hotspot list to open the add menu where you clicked\n- Cmd/Ctrl+G groups the selected hotspots, and Shift+Cmd/Ctrl+G ungroups them\n- In the media list view, a click opens the panorama and a double-click or F2 renames it",
+          "images": []
+        },
+        {
+          "id": "0.2.40/calmer-popups-and-panels",
+          "title": "Calmer popups and panels",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "Bulk Edit, License, About and Preferences now look like the rest of the editor: compact fields, small grey buttons and no white cards.\n\n- Preferences lists its sections on the left, like Settings\n- Delete project is the last section in Settings\n- Bulk Edit picks a rename mode from one field, and only shows Move to and Style when they apply",
+          "images": []
+        },
+        {
+          "id": "0.2.40/fixes",
+          "title": "Fixes",
+          "badge": "Fixed",
+          "kind": "fixes",
+          "body": "- Grouping or ungrouping several hotspots keeps their order and saves in one step\n- A context menu's submenu opens level with its row\n- Renaming a panorama in the list no longer makes its row taller\n- A long package name no longer pushes the third-party notices wider than the window",
+          "images": []
+        }
+      ]
+    },
+    {
       "version": "0.2.39",
       "date": "2026-11-13",
       "cards": [

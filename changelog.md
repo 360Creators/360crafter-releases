@@ -1,5 +1,30 @@
 # Changelog
 
+## 0.2.40
+
+### One bar to add hotspots (improved)
+
+The hotspot list has a bar with an icon for each hotspot type. Click an icon to place that hotspot, click it again to cancel, or drag it straight onto the panorama.
+
+- Double-click an empty part of the hotspot list to open the add menu where you clicked
+- Cmd/Ctrl+G groups the selected hotspots, and Shift+Cmd/Ctrl+G ungroups them
+- In the media list view, a click opens the panorama and a double-click or F2 renames it
+
+### Calmer popups and panels (improved)
+
+Bulk Edit, License, About and Preferences now look like the rest of the editor: compact fields, small grey buttons and no white cards.
+
+- Preferences lists its sections on the left, like Settings
+- Delete project is the last section in Settings
+- Bulk Edit picks a rename mode from one field, and only shows Move to and Style when they apply
+
+### Fixes
+
+- Grouping or ungrouping several hotspots keeps their order and saves in one step
+- A context menu's submenu opens level with its row
+- Renaming a panorama in the list no longer makes its row taller
+- A long package name no longer pushes the third-party notices wider than the window
+
 ## 0.2.39
 
 ### Maps without a map server
