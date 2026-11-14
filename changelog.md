@@ -1,5 +1,41 @@
 # Changelog
 
+## 0.2.45
+
+### Import 3DVista projects
+
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.45/image.png)
+
+Click Import on a craftspace and choose 3DVista project. In the desktop app you pick the project's .vtp file and 360Crafter finds the media it uses next to it; in the browser you pick the project folder.
+
+- Panoramas keep their names, order, starting view and hotspots, with 3DVista's own hotspot icons in the same places
+- Floorplans come in as interactive images with their pins
+- Photo albums come in as photos, named after their album
+- Videos and images pinned to a wall or screen are tilted to match, as if their corners had been fitted by hand
+- The skin comes along: menus, buttons, texts, scene lists, dropdowns and floorplan popups, with the tour's fonts
+
+### See what an import brings before it starts
+
+Before anything is uploaded, a review lists what will be imported with counts, and a Skipped list you can open shows what won't come across to set the right expectations.
+
+### Tour soundtrack
+
+Set a soundtrack in Project Settings and it keeps playing while visitors move between scenes. A scene can use the project's track, play its own file, or be silent, and moving between two scenes with the same track never restarts it. The soundtrack is included when you export.
+
+### Create and import from Home (improved)
+
+Home has New project and Import project tiles next to your recent projects. Both ask which craftspace to use when you have more than one. Right-click a project card for the same actions as its menu.
+
+### Chroma key color from video (fixed)
+
+Pick the key color of a video hotspot by clicking it in the video. A loupe shows the color under the pointer while you aim.
+
+### Fixes
+
+- A video used by several hotspots shows as one video on the Assets page, and replacing it updates all of them
+- Large floorplans fit the viewer instead of opening zoomed in
+- A dropdown in the skin can list a chosen set of scenes
+
 ## 0.2.44
 
 ### Variables page redesigned (improved)

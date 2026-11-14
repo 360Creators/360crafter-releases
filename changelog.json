@@ -2,6 +2,65 @@
   "markdown": "https://360creators.github.io/360crafter-releases/changelog.md",
   "versions": [
     {
+      "version": "0.2.45",
+      "date": "2026-11-14",
+      "cards": [
+        {
+          "id": "0.2.45/import-3dvista-projects",
+          "title": "Import 3DVista projects",
+          "badge": "New",
+          "kind": "feature",
+          "body": "Click Import on a craftspace and choose 3DVista project. In the desktop app you pick the project's .vtp file and 360Crafter finds the media it uses next to it; in the browser you pick the project folder.\n\n- Panoramas keep their names, order, starting view and hotspots, with 3DVista's own hotspot icons in the same places\n- Floorplans come in as interactive images with their pins\n- Photo albums come in as photos, named after their album\n- Videos and images pinned to a wall or screen are tilted to match, as if their corners had been fitted by hand\n- The skin comes along: menus, buttons, texts, scene lists, dropdowns and floorplan popups, with the tour's fonts",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.2.45/image.png",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "id": "0.2.45/see-what-an-import-brings-before-it-starts",
+          "title": "See what an import brings before it starts",
+          "badge": "New",
+          "kind": "feature",
+          "body": "Before anything is uploaded, a review lists what will be imported with counts, and a Skipped list you can open shows what won't come across to set the right expectations.",
+          "images": []
+        },
+        {
+          "id": "0.2.45/tour-soundtrack",
+          "title": "Tour soundtrack",
+          "badge": "New",
+          "kind": "feature",
+          "body": "Set a soundtrack in Project Settings and it keeps playing while visitors move between scenes. A scene can use the project's track, play its own file, or be silent, and moving between two scenes with the same track never restarts it. The soundtrack is included when you export.",
+          "images": []
+        },
+        {
+          "id": "0.2.45/create-and-import-from-home",
+          "title": "Create and import from Home",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "Home has New project and Import project tiles next to your recent projects. Both ask which craftspace to use when you have more than one. Right-click a project card for the same actions as its menu.",
+          "images": []
+        },
+        {
+          "id": "0.2.45/chroma-key-color-from-video",
+          "title": "Chroma key color from video",
+          "badge": "Fixed",
+          "kind": "fixes",
+          "body": "Pick the key color of a video hotspot by clicking it in the video. A loupe shows the color under the pointer while you aim.",
+          "images": []
+        },
+        {
+          "id": "0.2.45/fixes",
+          "title": "Fixes",
+          "badge": "Fixed",
+          "kind": "fixes",
+          "body": "- A video used by several hotspots shows as one video on the Assets page, and replacing it updates all of them\n- Large floorplans fit the viewer instead of opening zoomed in\n- A dropdown in the skin can list a chosen set of scenes",
+          "images": []
+        }
+      ]
+    },
+    {
       "version": "0.2.44",
       "date": "2026-11-13",
       "cards": [
