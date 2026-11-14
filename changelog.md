@@ -1,5 +1,25 @@
 # Changelog
 
+## 0.2.46
+
+### Gaussian splats (experimental)
+
+Turn on Gaussian splats under Experimental in User preferences, then add a splat from the media menu. Bring a Gaussian splat PLY, as Postshot exports it, or an SPZ file. A capture of several gigabytes is compressed while it imports, and it keeps a lighter version for phones so it runs smoothly in the editor and in exported tours.
+
+- Walk through the scene: drag to look around, WASD or the arrow keys to move, the wheel to step forward
+- Set an eye height, so you see the room from where a person would stand
+- Place hotspots straight onto the splat
+- Captures that come in upside down are turned upright, with a switch for those that are not
+
+### Walk mode for 3D models (improved)
+
+Any 3D scene can switch between orbiting around the model and walking through it. Set View now saves the camera's position and direction for 3D scenes too.
+
+### Fixes
+
+- Changing the first setting on a scene no longer resets the other settings it came with
+- Importing 3D models with the file picker in the browser works again
+
 ## 0.2.45
 
 ### Import 3DVista projects
