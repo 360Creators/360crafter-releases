@@ -2,6 +2,44 @@
   "markdown": "https://360creators.github.io/360crafter-releases/changelog.md",
   "versions": [
     {
+      "version": "0.2.47",
+      "date": "2026-11-17",
+      "cards": [
+        {
+          "id": "0.2.47/work-with-ai-assistants",
+          "title": "Work with AI assistants",
+          "badge": "Beta",
+          "kind": "feature",
+          "body": "Let Claude or another AI assistant build your tours with you in the desktop app. Open MCP in a craftspace, turn on access, and connect Claude Desktop or any other MCP client in one click. Everything the assistant changes appears live in the editor.\n\n- It sees the whole 360° scene, not only what is on screen, and can zoom in on any direction\n- It adds, moves and restyles hotspots, edits custom HTML and builds skin components\n- It uses your presets: it can create them, change them and link them to hotspots\n- Choose which projects it can reach, and for each command whether it runs, asks you first or is off\n- It can never delete anything, and one undo takes back a whole step it made",
+          "images": []
+        },
+        {
+          "id": "0.2.47/scenes-and-overlays",
+          "title": "Scenes and Overlays",
+          "badge": "New",
+          "kind": "feature",
+          "body": "The media list in the editor is split into Scenes, which visitors move between, and Overlays, such as floorplans and maps that only appear in the skin. The add menu is split the same way, and Show as in the properties panel moves an item from one to the other.\n\n- The Panoramas table in the CMS is now called Scenes and has a Show As column\n- New scene menus in the skin leave overlays out on their own\n- Open an overlay's hotspots straight from the Assets page",
+          "images": []
+        },
+        {
+          "id": "0.2.47/variables-in-one-place",
+          "title": "Variables in one place",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "A craftspace's colors, icons and numbers are on a single Variables page, and Import CSS works for icons too.",
+          "images": []
+        },
+        {
+          "id": "0.2.47/icon-hotspots-by-default",
+          "title": "Icon hotspots by default",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "A hotspot placed without picking a type is now an icon hotspot. Existing SVG hotspots keep working, but hotspots can no longer be converted to SVG.",
+          "images": []
+        }
+      ]
+    },
+    {
       "version": "0.2.46",
       "date": "2026-11-14",
       "cards": [

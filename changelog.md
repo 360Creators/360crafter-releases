@@ -1,5 +1,33 @@
 # Changelog
 
+## 0.2.47
+
+### Work with AI assistants (beta)
+
+Let Claude or another AI assistant build your tours with you in the desktop app. Open MCP in a craftspace, turn on access, and connect Claude Desktop or any other MCP client in one click. Everything the assistant changes appears live in the editor.
+
+- It sees the whole 360° scene, not only what is on screen, and can zoom in on any direction
+- It adds, moves and restyles hotspots, edits custom HTML and builds skin components
+- It uses your presets: it can create them, change them and link them to hotspots
+- Choose which projects it can reach, and for each command whether it runs, asks you first or is off
+- It can never delete anything, and one undo takes back a whole step it made
+
+### Scenes and Overlays
+
+The media list in the editor is split into Scenes, which visitors move between, and Overlays, such as floorplans and maps that only appear in the skin. The add menu is split the same way, and Show as in the properties panel moves an item from one to the other.
+
+- The Panoramas table in the CMS is now called Scenes and has a Show As column
+- New scene menus in the skin leave overlays out on their own
+- Open an overlay's hotspots straight from the Assets page
+
+### Variables in one place (improved)
+
+A craftspace's colors, icons and numbers are on a single Variables page, and Import CSS works for icons too.
+
+### Icon hotspots by default (improved)
+
+A hotspot placed without picking a type is now an icon hotspot. Existing SVG hotspots keep working, but hotspots can no longer be converted to SVG.
+
 ## 0.2.46
 
 ### Gaussian splats (experimental)
