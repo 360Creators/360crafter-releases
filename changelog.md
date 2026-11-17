@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.2.48
+
+### Fixes
+
+- Exporting a large tour no longer fails with "Array buffer allocation failed". The ZIP is now written piece by piece instead of being built in memory, so tours of several gigabytes export too. Thanks to Jeremy for reporting.
+
 ## 0.2.47
 
 ### Work with AI assistants (beta)
