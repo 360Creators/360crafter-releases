@@ -1,5 +1,26 @@
 # Changelog
 
+## 0.2.49
+
+### Airtable in the CMS
+
+Import a table from Airtable next to Google Sheets and Baserow. Connect a personal access token once per craftspace, then pick a base, a table and a view, or paste the table's Airtable link.
+
+- Field types come across from Airtable: text, numbers, checkboxes, dates, selects, links and emails
+- Image and audio attachments are copied into the project, so they keep working after Airtable's links expire
+- Linked records point at the linked table when you import it too
+- The Sync button above a synced table fetches the latest data right away and keeps the fields you added in the CMS
+- The line above a synced table shows its source with the source's logo, links to it, and says when it was last synced
+- Click the source above a synced table to open Sync settings: pick another base, table or view, change the token, keep the table live in exported tours, or disconnect it to make it a normal table
+- Columns from Airtable, Google Sheets and Baserow are read-only in the CMS, since syncing only goes one way. Add your own fields next to them for anything extra
+- Exported tours ship a snapshot. To keep a table live, confirm in the export window that its token may go into the tour: give it read-only access to that base only, since anyone can read the data
+
+### Fixes
+
+- Linked fields can now point at rows of a table you imported from a CSV file, Google Sheet or Baserow, and show the row's name instead of its id
+- Importing a table named like a built-in table, such as Hotspots, no longer replaces that table and loses the imported rows. The new table gets a number, for example Hotspots 2
+- CMS table tabs no longer show a row count, and hovering a tab outlines it like the selected one
+
 ## 0.2.48
 
 ### Fixes

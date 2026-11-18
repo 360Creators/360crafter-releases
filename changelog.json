@@ -2,6 +2,28 @@
   "markdown": "https://360creators.github.io/360crafter-releases/changelog.md",
   "versions": [
     {
+      "version": "0.2.49",
+      "date": "2026-11-18",
+      "cards": [
+        {
+          "id": "0.2.49/airtable-in-the-cms",
+          "title": "Airtable in the CMS",
+          "badge": "New",
+          "kind": "feature",
+          "body": "Import a table from Airtable next to Google Sheets and Baserow. Connect a personal access token once per craftspace, then pick a base, a table and a view, or paste the table's Airtable link.\n\n- Field types come across from Airtable: text, numbers, checkboxes, dates, selects, links and emails\n- Image and audio attachments are copied into the project, so they keep working after Airtable's links expire\n- Linked records point at the linked table when you import it too\n- The Sync button above a synced table fetches the latest data right away and keeps the fields you added in the CMS\n- The line above a synced table shows its source with the source's logo, links to it, and says when it was last synced\n- Click the source above a synced table to open Sync settings: pick another base, table or view, change the token, keep the table live in exported tours, or disconnect it to make it a normal table\n- Columns from Airtable, Google Sheets and Baserow are read-only in the CMS, since syncing only goes one way. Add your own fields next to them for anything extra\n- Exported tours ship a snapshot. To keep a table live, confirm in the export window that its token may go into the tour: give it read-only access to that base only, since anyone can read the data",
+          "images": []
+        },
+        {
+          "id": "0.2.49/fixes",
+          "title": "Fixes",
+          "badge": "Fixed",
+          "kind": "fixes",
+          "body": "- Linked fields can now point at rows of a table you imported from a CSV file, Google Sheet or Baserow, and show the row's name instead of its id\n- Importing a table named like a built-in table, such as Hotspots, no longer replaces that table and loses the imported rows. The new table gets a number, for example Hotspots 2\n- CMS table tabs no longer show a row count, and hovering a tab outlines it like the selected one",
+          "images": []
+        }
+      ]
+    },
+    {
       "version": "0.2.48",
       "date": "2026-11-17",
       "cards": [
