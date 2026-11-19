@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.2.51
+
+### Object detection (experimental)
+
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.51/image.png)
+
+Turn on Object detection under Experimental features in User preferences, which downloads about 93 MB of models once, then right-click a panorama in the editor and choose Object Detection. The desktop app looks for doors, windows, furniture, paintings, signs and other objects in the whole 360° scene, on your own computer, and shows each one on the panorama. Click a suggestion to outline the object with a polygon hotspot named after it.
+
+- Outlines are traced closely around each object, on your computer's graphics card when it has one
+- Suggestions you have already placed are left out
+- AI assistants connected over MCP get the same list, so they place hotspots on objects quickly and precisely instead of searching the picture
+
 ## 0.2.50
 
 ### Assets page redesigned (improved)
