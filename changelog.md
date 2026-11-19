@@ -1,5 +1,48 @@
 # Changelog
 
+## 0.2.50
+
+### Assets page redesigned (improved)
+
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.50/image-2.png)
+
+The Assets page works like a file manager. A Library on the left lists each kind of file with its count, the list in the middle shows the files of the kind you pick, and a panel on the right shows the file you select.
+
+- Kinds only appear once the project has one: 360 panoramas, image scenes, 3D models, Gaussian splats, floorplans, maps, images, icons, videos, PDFs, audio and downloads
+- Search any kind, or all assets at once
+- Click a file's name in the panel to rename it
+- Select several files with Shift-click and Cmd-click, or all of them with Cmd-A; Esc closes the panel
+- Import audio files here, and import any kind from All assets
+- Sizes and dimensions show for icons and images too, even when they were never stored
+
+### See what a project and an export weigh
+
+![Export size](https://360creators.github.io/360crafter-releases/assets/v0.2.50/image-4.png)
+![Project size](https://360creators.github.io/360crafter-releases/assets/v0.2.50/image-3.png)
+
+Click Project size at the bottom of the Library for a donut of what each kind of file takes up, and click a kind to see its files, largest first.
+
+The Export window shows Export size the same way, before you export. It counts what actually ships: panorama tiles instead of the original images, only the media the tour uses, and the viewer itself. Hover a file such as viewer-export.js or the ZIP index to see what it is for, with Read more for the details.
+
+### A simpler export window (improved)
+
+The export window is down to the settings you are likely to change: Panorama URLs, Sitemap and Scroll when embedded. Connected CMS tables each get one choice, Static snapshot or Live data. Export is available on every page of a project.
+
+### Panoramas are always tiled (changed)
+
+Panoramas are always exported as tiles, which load faster and work on older devices. The choice between tiled and single panoramas, the minimum resolution and the loading spinner setting are gone.
+
+### Local AI removed (changed)
+
+The experimental local AI assistant is removed. Working with Claude and other AI assistants over MCP stays.
+
+### Fixes
+
+- Download works for every kind of asset, and asks where to save in the desktop app
+- File sizes count the way Finder and Explorer do, so a downloaded file shows the same size in both
+- Sizes under a kilobyte read as bytes, for example 654 bytes
+- In the desktop app, buttons that add files say Import instead of Upload
+
 ## 0.2.49
 
 ### Airtable in the CMS

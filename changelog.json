@@ -2,6 +2,74 @@
   "markdown": "https://360creators.github.io/360crafter-releases/changelog.md",
   "versions": [
     {
+      "version": "0.2.50",
+      "date": "2026-11-19",
+      "cards": [
+        {
+          "id": "0.2.50/assets-page-redesigned",
+          "title": "Assets page redesigned",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "The Assets page works like a file manager. A Library on the left lists each kind of file with its count, the list in the middle shows the files of the kind you pick, and a panel on the right shows the file you select.\n\n- Kinds only appear once the project has one: 360 panoramas, image scenes, 3D models, Gaussian splats, floorplans, maps, images, icons, videos, PDFs, audio and downloads\n- Search any kind, or all assets at once\n- Click a file's name in the panel to rename it\n- Select several files with Shift-click and Cmd-click, or all of them with Cmd-A; Esc closes the panel\n- Import audio files here, and import any kind from All assets\n- Sizes and dimensions show for icons and images too, even when they were never stored",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.2.50/image-2.png",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "id": "0.2.50/see-what-a-project-and-an-export-weigh",
+          "title": "See what a project and an export weigh",
+          "badge": "New",
+          "kind": "feature",
+          "body": "Click Project size at the bottom of the Library for a donut of what each kind of file takes up, and click a kind to see its files, largest first.\n\nThe Export window shows Export size the same way, before you export. It counts what actually ships: panorama tiles instead of the original images, only the media the tour uses, and the viewer itself. Hover a file such as viewer-export.js or the ZIP index to see what it is for, with Read more for the details.",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.2.50/image-4.png",
+              "caption": "Export size"
+            },
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.2.50/image-3.png",
+              "caption": "Project size"
+            }
+          ]
+        },
+        {
+          "id": "0.2.50/a-simpler-export-window",
+          "title": "A simpler export window",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "The export window is down to the settings you are likely to change: Panorama URLs, Sitemap and Scroll when embedded. Connected CMS tables each get one choice, Static snapshot or Live data. Export is available on every page of a project.",
+          "images": []
+        },
+        {
+          "id": "0.2.50/panoramas-are-always-tiled",
+          "title": "Panoramas are always tiled",
+          "badge": "Changed",
+          "kind": "feature",
+          "body": "Panoramas are always exported as tiles, which load faster and work on older devices. The choice between tiled and single panoramas, the minimum resolution and the loading spinner setting are gone.",
+          "images": []
+        },
+        {
+          "id": "0.2.50/local-ai-removed",
+          "title": "Local AI removed",
+          "badge": "Changed",
+          "kind": "feature",
+          "body": "The experimental local AI assistant is removed. Working with Claude and other AI assistants over MCP stays.",
+          "images": []
+        },
+        {
+          "id": "0.2.50/fixes",
+          "title": "Fixes",
+          "badge": "Fixed",
+          "kind": "fixes",
+          "body": "- Download works for every kind of asset, and asks where to save in the desktop app\n- File sizes count the way Finder and Explorer do, so a downloaded file shows the same size in both\n- Sizes under a kilobyte read as bytes, for example 654 bytes\n- In the desktop app, buttons that add files say Import instead of Upload",
+          "images": []
+        }
+      ]
+    },
+    {
       "version": "0.2.49",
       "date": "2026-11-18",
       "cards": [
