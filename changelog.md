@@ -1,5 +1,76 @@
 # Changelog
 
+## 0.2.56
+
+### Live preview on hover
+
+Rest the pointer on an option and the selected hotspot or skin component shows it straight away. Move away and it goes back; click to keep it.
+
+This way you see immediatly what something does instead of having to click it first. Makes it feel much more pro 😎
+
+- Text alignment, case, italic, underline, font weight and text shadow
+- Colour swatches and the colour area
+- Stroke style, callout shape and callout origin
+
+### Change a hotspot's type from its panel
+
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.56/image.png)
+
+The type name at the top of the panel opens a list of the other types. Polygons convert too: a polygon becomes a box the size of its outline, and a box becomes a four-corner polygon you can reshape.
+
+### Padding and margin box (improved)
+
+Drag a side to change it. Hold Cmd to change the opposite side with it, or Shift for all four sides. Option-click a value to reset it.
+
+### Centre horizontally
+
+The button next to Spacing centres a skin component in its parent. It needs a fixed width.
+
+### Text alignment in one place (changed)
+
+Text is aligned with Text Formatting in the panel, so styles and breakpoints can set it. The text toolbar no longer has its own alignment buttons.
+
+### Fixes
+
+- Tooltips are smaller and flat, and Strokes and Callout show one tooltip instead of two
+- The polygon Outline width and Corner radius sliders show their track
+- Trying colours by hovering no longer adds steps to Undo
+
+## 0.2.55
+
+### Padding and margin box (improved)
+
+![](https://360creators.github.io/360crafter-releases/assets/v0.2.55/image.png)
+
+Padding and margin are edited in a box around the component, with a field for each side.
+
+### Video panels (improved)
+
+Easier to pick a video, small changes.
+
+## 0.2.54
+
+### Code maintenance (improved)
+
+-
+
+## 0.2.53
+
+### Transitions for Active and Visited (improved)
+
+The Transitions section on the Active and Visited tabs now takes effect. A hotspot that turns active or visited while it is on screen, for example when it gets keyboard focus, animates into that look with the state's own transitions. A state without transitions of its own uses the Hover ones, as before.
+
+### Fixes
+
+- Hover transitions now animate strokes too, so a hover look that only adds or changes a stroke no longer snaps into place
+- Extra strokes in a Hover, Active or Visited look grow in and shrink out instead of appearing at once
+
+## 0.2.52
+
+### Third-party notices (fixed)
+
+About 360Crafter, Third-party notices now lists every open source package that ships with 360Crafter, with its license and a link to its source, followed by the full license texts.
+
 ## 0.2.51
 
 ### Object detection (experimental)
