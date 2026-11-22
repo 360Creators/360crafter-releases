@@ -2,6 +2,20 @@
   "markdown": "https://360creators.github.io/360crafter-releases/changelog.md",
   "versions": [
     {
+      "version": "0.3.1",
+      "date": "2026-11-22",
+      "cards": [
+        {
+          "id": "0.3.1/cleanup-behind-the-scenes",
+          "title": "Cleanup behind the scenes",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "A lot of code was cleaned up behind the scenes, so 360Crafter is lighter and easier to keep improving.",
+          "images": []
+        }
+      ]
+    },
+    {
       "version": "0.2.57",
       "date": null,
       "cards": [

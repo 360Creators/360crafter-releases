@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.1
+
+### Cleanup behind the scenes (improved)
+
+A lot of code was cleaned up behind the scenes, so 360Crafter is lighter and easier to keep improving.
+
 ## 0.2.57
 
 ### The same Appearance on every hotspot (improved)
