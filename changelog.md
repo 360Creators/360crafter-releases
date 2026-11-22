@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.2
+
+### Cleanup behind the scenes (improved)
+
+More groundwork for Crafter Cloud was done behind the scenes. Nothing changes in how 360Crafter works today.
+
 ## 0.3.1
 
 ### Cleanup behind the scenes (improved)

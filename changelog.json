@@ -2,6 +2,20 @@
   "markdown": "https://360creators.github.io/360crafter-releases/changelog.md",
   "versions": [
     {
+      "version": "0.3.2",
+      "date": "2026-11-22",
+      "cards": [
+        {
+          "id": "0.3.2/cleanup-behind-the-scenes",
+          "title": "Cleanup behind the scenes",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "More groundwork for Crafter Cloud was done behind the scenes. Nothing changes in how 360Crafter works today.",
+          "images": []
+        }
+      ]
+    },
+    {
       "version": "0.3.1",
       "date": "2026-11-22",
       "cards": [
