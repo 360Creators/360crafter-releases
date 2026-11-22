@@ -2,6 +2,60 @@
   "markdown": "https://360creators.github.io/360crafter-releases/changelog.md",
   "versions": [
     {
+      "version": "0.2.57",
+      "date": null,
+      "cards": [
+        {
+          "id": "0.2.57/the-same-appearance-on-every-hotspot",
+          "title": "The same Appearance on every hotspot",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "Polygons and videos now have an Appearance section like the other hotspot types, with the same rows in the same order. Optional rows such as Inner shadow are added with + and fold away when you don't need them.\n\n- Drop shadow on every hotspot type, and on video without chroma key\n- Strokes and Backdrop filters are rows of Appearance, on hotspots and skin components\n- Padding on video hotspots draws a frame around the clip with the Background or Image",
+          "images": []
+        },
+        {
+          "id": "0.2.57/video-controls-on-hotspots",
+          "title": "Video controls on hotspots",
+          "badge": "New",
+          "kind": "feature",
+          "body": "Play, skip, volume and a progress bar can now be shown on video hotspots, set up the same way as on a skin video. They work in preview and in the published tour, and tilt with the hotspot.\n\n- Controls, Chroma key and Subtitles are rows of the Video section, with + to add them\n- Chroma key and subtitle fields have colored labels in the skin as well",
+          "images": []
+        },
+        {
+          "id": "0.2.57/clearer-style-labels",
+          "title": "Clearer style labels",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "Click a colored label to see the value each layer sets, and remove any of them with the x on its row. Removing a value from a preset you are not editing asks first. A box under the presets always says what you are editing.\n\n- Move a hotspot's own values into a preset from that box\n- Red labels are no longer struck through",
+          "images": []
+        },
+        {
+          "id": "0.2.57/rotation-icons",
+          "title": "Rotation icons",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "The X, Y and Z rotation fields show an icon for each axis. Drag Y left and right to turn the hotspot.",
+          "images": []
+        },
+        {
+          "id": "0.2.57/tidier-skin-panel",
+          "title": "Tidier skin panel",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "Section headers are compact, like in the hotspot panel. An image component has one Image File field, and a video matches its clip's shape from the film icon in Aspect Ratio.",
+          "images": []
+        },
+        {
+          "id": "0.2.57/fixes",
+          "title": "Fixes",
+          "badge": "Fixed",
+          "kind": "fixes",
+          "body": "- Hold Shift while drawing a polygon or mask to snap to 45 degree angles\n- Sliders drag smoothly and don't jump when you let go\n- The selection outline hides while you edit outline fields, so the change is visible\n- Labels that wrap onto two lines stay aligned\n- Cmd-click resets a value in the padding and margin box, like on a label\n- The Center horizontally button is gone: type Auto in the left or right margin instead",
+          "images": []
+        }
+      ]
+    },
+    {
       "version": "0.2.56",
       "date": null,
       "cards": [

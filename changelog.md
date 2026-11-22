@@ -1,5 +1,46 @@
 # Changelog
 
+## 0.2.57
+
+### The same Appearance on every hotspot (improved)
+
+Polygons and videos now have an Appearance section like the other hotspot types, with the same rows in the same order. Optional rows such as Inner shadow are added with + and fold away when you don't need them.
+
+- Drop shadow on every hotspot type, and on video without chroma key
+- Strokes and Backdrop filters are rows of Appearance, on hotspots and skin components
+- Padding on video hotspots draws a frame around the clip with the Background or Image
+
+### Video controls on hotspots
+
+Play, skip, volume and a progress bar can now be shown on video hotspots, set up the same way as on a skin video. They work in preview and in the published tour, and tilt with the hotspot.
+
+- Controls, Chroma key and Subtitles are rows of the Video section, with + to add them
+- Chroma key and subtitle fields have colored labels in the skin as well
+
+### Clearer style labels (improved)
+
+Click a colored label to see the value each layer sets, and remove any of them with the x on its row. Removing a value from a preset you are not editing asks first. A box under the presets always says what you are editing.
+
+- Move a hotspot's own values into a preset from that box
+- Red labels are no longer struck through
+
+### Rotation icons (improved)
+
+The X, Y and Z rotation fields show an icon for each axis. Drag Y left and right to turn the hotspot.
+
+### Tidier skin panel (improved)
+
+Section headers are compact, like in the hotspot panel. An image component has one Image File field, and a video matches its clip's shape from the film icon in Aspect Ratio.
+
+### Fixes
+
+- Hold Shift while drawing a polygon or mask to snap to 45 degree angles
+- Sliders drag smoothly and don't jump when you let go
+- The selection outline hides while you edit outline fields, so the change is visible
+- Labels that wrap onto two lines stay aligned
+- Cmd-click resets a value in the padding and margin box, like on a label
+- The Center horizontally button is gone: type Auto in the left or right margin instead
+
 ## 0.2.56
 
 ### Live preview on hover
