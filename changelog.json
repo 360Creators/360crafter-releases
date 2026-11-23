@@ -2,6 +2,92 @@
   "markdown": "https://360creators.github.io/360crafter-releases/changelog.md",
   "versions": [
     {
+      "version": "0.3.4",
+      "date": "2026-11-23",
+      "cards": [
+        {
+          "id": "0.3.4/craftspace-pages-from-the-editor",
+          "title": "Craftspace pages from the editor",
+          "badge": "New",
+          "kind": "feature",
+          "body": "Hover over the logo at the top of the left rail to reach the craftspace's Variables, MCP and Settings without going back to the dashboard. Each opens as a popup over the editor, with a darker look so it's clear they apply to the whole craftspace. Clicking the logo still goes back to the dashboard.\n\n- Pick a craftspace icon with the same icon picker hotspots use",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.3.4/image.png",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "id": "0.3.4/a-default-craftspace",
+          "title": "A default craftspace",
+          "badge": "New",
+          "kind": "feature",
+          "body": "Drag craftspaces in the sidebar to reorder them. The one on top is the default, where new projects go. Hover over it to see its Default tag.",
+          "images": [
+            {
+              "url": "https://360creators.github.io/360crafter-releases/assets/v0.3.4/image-2.png",
+              "caption": ""
+            }
+          ]
+        },
+        {
+          "id": "0.3.4/snapshots-on-export",
+          "title": "Snapshots on export",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "A snapshot of the project is now saved each time you download a ZIP, and before you restore another snapshot, so you can always go back. \n\nLess thinking about saving your project and having the ability to rollback if needed, it just happens when you export.",
+          "images": []
+        },
+        {
+          "id": "0.3.4/search-engines-and-crawlers",
+          "title": "Search engines and crawlers",
+          "badge": "New",
+          "kind": "feature",
+          "body": "Two new export options: Noindex asks search engines not to list the tour, and Block crawlers adds a robots.txt that asks all crawlers to stay away.",
+          "images": []
+        },
+        {
+          "id": "0.3.4/fixes",
+          "title": "Fixes",
+          "badge": "Fixed",
+          "kind": "fixes",
+          "body": "- Cmd+C copies highlighted text within the application\n- Pressing ESC after clicking a button no longer leaves an orange focus ring on it\n- The Publish panel closes with ESC or a click outside it, including on the header\n- Tooltips inside dialogs show in front of the dialog instead of behind it\n- Move to preset creates a new preset in one click when the hotspot has none yet\n\n- File sizes below 1 GB are rounded to whole numbers",
+          "images": []
+        }
+      ]
+    },
+    {
+      "version": "0.3.3",
+      "date": null,
+      "cards": [
+        {
+          "id": "0.3.3/navigation-arrows-point-the-right-way",
+          "title": "Navigation arrows point the right way",
+          "badge": "Fixed",
+          "kind": "fixes",
+          "body": "Arrows made with Auto-Generate Links now point toward the scene they lead to. Before, they were turned the wrong way by twice the scene's north offset.\n\n- Set North moves a scene's navigation arrows again, and says why when none could move\n- Setting north no longer clears the GPS location of the media",
+          "images": []
+        },
+        {
+          "id": "0.3.3/see-where-north-is",
+          "title": "See where north is",
+          "badge": "New",
+          "kind": "feature",
+          "body": "After Set North, a blue line in the scene marks north, so you can check it landed where you meant. It shows only while editing, never in preview or in exported tours. Turn it off with Guide in the North section.",
+          "images": []
+        },
+        {
+          "id": "0.3.3/maps",
+          "title": "Maps",
+          "badge": "Improved",
+          "kind": "feature",
+          "body": "The OpenStreetMap basemap was removed, because its servers don't allow use in distributed tours. Maps that used it now open on Light.",
+          "images": []
+        }
+      ]
+    },
+    {
       "version": "0.3.2",
       "date": "2026-11-22",
       "cards": [

@@ -1,5 +1,58 @@
 # Changelog
 
+## 0.3.4
+
+### Craftspace pages from the editor
+
+![](https://360creators.github.io/360crafter-releases/assets/v0.3.4/image.png)
+
+Hover over the logo at the top of the left rail to reach the craftspace's Variables, MCP and Settings without going back to the dashboard. Each opens as a popup over the editor, with a darker look so it's clear they apply to the whole craftspace. Clicking the logo still goes back to the dashboard.
+
+- Pick a craftspace icon with the same icon picker hotspots use
+
+### A default craftspace
+
+![](https://360creators.github.io/360crafter-releases/assets/v0.3.4/image-2.png)
+
+Drag craftspaces in the sidebar to reorder them. The one on top is the default, where new projects go. Hover over it to see its Default tag.
+
+### Snapshots on export (improved)
+
+A snapshot of the project is now saved each time you download a ZIP, and before you restore another snapshot, so you can always go back. 
+
+Less thinking about saving your project and having the ability to rollback if needed, it just happens when you export.
+
+### Search engines and crawlers
+
+Two new export options: Noindex asks search engines not to list the tour, and Block crawlers adds a robots.txt that asks all crawlers to stay away.
+
+### Fixes
+
+- Cmd+C copies highlighted text within the application
+- Pressing ESC after clicking a button no longer leaves an orange focus ring on it
+- The Publish panel closes with ESC or a click outside it, including on the header
+- Tooltips inside dialogs show in front of the dialog instead of behind it
+- Move to preset creates a new preset in one click when the hotspot has none yet
+
+- File sizes below 1 GB are rounded to whole numbers
+
+## 0.3.3
+
+### Navigation arrows point the right way (fixed)
+
+Arrows made with Auto-Generate Links now point toward the scene they lead to. Before, they were turned the wrong way by twice the scene's north offset.
+
+- Set North moves a scene's navigation arrows again, and says why when none could move
+- Setting north no longer clears the GPS location of the media
+
+### See where north is
+
+After Set North, a blue line in the scene marks north, so you can check it landed where you meant. It shows only while editing, never in preview or in exported tours. Turn it off with Guide in the North section.
+
+### Maps (improved)
+
+The OpenStreetMap basemap was removed, because its servers don't allow use in distributed tours. Maps that used it now open on Light.
+
 ## 0.3.2
 
 ### Cleanup behind the scenes (improved)
