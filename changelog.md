@@ -1,5 +1,39 @@
 # Changelog
 
+## 0.3.5
+
+### Redesigned ACTIONS!
+
+![](https://360creators.github.io/360crafter-releases/assets/v0.3.5/image.png)
+
+The Actions panel is now a short list per trigger. Each action is one line that says what it does, like "Go to warm\_bar\_12k" or "Wait 3 s". Click a line to edit it in a popover beside the panel, drag lines to reorder them, and add more with Add action. Most actions now read as a sentence, and Navigate to is now called Go to.
+
+### More triggers
+
+- Hover: While hovering undoes its actions when the pointer leaves. On pointer enter and On pointer leave are still there.
+- Click: On double click or tap runs its own actions.
+- Visibility: On show, On hide and While visible run when a hotspot or skin component appears or disappears.
+- Scene: On enter, On leave and While in this scene now also work for interactive images, 3D models and splats.
+
+### Wait now waits (fixed)
+
+A Wait holds back every action after it, not only camera moves and notifications. Move camera also has a duration, and can turn the view while keeping the visitor's zoom.
+
+### Hover on touch devices
+
+Phones and tablets have no hover, so the center of the screen now acts as the pointer: move a hotspot under it to hover it, like gazing. Change it in Settings, Touch &amp; hover, where an optional dot marks the center.
+
+### Shrink while panning
+
+Hotspot minimization moved out of Actions into Design, Animation, as Shrink while panning. It now also works on hotspots without a set size.
+
+### Smaller changes
+
+- Show or hide skin picks components from the same tree as the Skin panel.
+- Hotspot lists in actions have Select all.
+- The State and Breakpoint pickers only show on the Design tab, and the CMS item tab is hidden.
+- New shared link presets are called "go to".
+
 ## 0.3.4
 
 ### Craftspace pages from the editor
