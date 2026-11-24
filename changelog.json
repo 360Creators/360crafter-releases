@@ -2,6 +2,66 @@
   "markdown": "https://360creators.github.io/360crafter-releases/changelog.md",
   "versions": [
     {
+      "version": "0.3.7",
+      "date": "2026-11-24",
+      "cards": [
+        {
+          "id": "0.3.7/presets-you-can-read-at-a-glance",
+          "title": "Presets you can read at a glance",
+          "badge": "New",
+          "kind": "feature",
+          "body": "The preset chips under Style now look like the field labels. A preset that sets values of what you are editing has an orange background, and one that overrides them has a red one. The preset you are editing is solid blue, with a small Editing above its name. Click it again to go back to editing the hotspot itself.\n\n- When the preset you are editing is also used by other hotspots, a line says \"Also changes 3 hotspots\". Hover it to see which ones.\n- Reset hotspot values moved into the ⋮ menu.",
+          "images": []
+        },
+        {
+          "id": "0.3.7/turn-your-values-into-a-preset",
+          "title": "Turn your values into a preset",
+          "badge": "New",
+          "kind": "feature",
+          "body": "Open + Preset and choose New preset from this hotspot to turn the values you set on a hotspot into a preset. The hotspot is emptied and the new preset takes over. To add them to a preset you already have, open that chip's menu and choose Move hotspot values here.\n\n- The + Preset menu has the same look as Add action.",
+          "images": []
+        },
+        {
+          "id": "0.3.7/reorder-presets-by-priority",
+          "title": "Reorder presets by priority",
+          "badge": "New",
+          "kind": "feature",
+          "body": "Drag a preset chip to change its priority. While you drag, the chips turn into numbered slots, 1 being the strongest. When you drop, every chip slides to its new place.\n\n- Dropping a preset on the last slot now puts it last (fixed).",
+          "images": []
+        },
+        {
+          "id": "0.3.7/presets-on-skin-components",
+          "title": "Presets on skin components",
+          "badge": "New",
+          "kind": "feature",
+          "body": "Skin components work with presets the same way: the same chips and Editing label, New preset from this component, Move component values here, and numbered reordering. A preset you create by typing a name starts empty, as it does for hotspots.",
+          "images": []
+        }
+      ]
+    },
+    {
+      "version": "0.3.6",
+      "date": null,
+      "cards": [
+        {
+          "id": "0.3.6/cleaner-ui",
+          "title": "Cleaner UI",
+          "badge": "New",
+          "kind": "feature",
+          "body": "- **Hotspot size** moved from Appearance into Transform.\n- Strokes, Inner shadow, Drop shadow and Backdrop filters, the things you add with +, are always the last rows of Appearance.\n- Sections are reordered: Appearance, Animation, Attached, Transform, Mask, Accessibility.\n- Callout, Tooltip and Radar now sit together in one Attached section. Add each with +, and once added all its settings show. Mask is greyed out while you edit a preset, since a mask belongs to one hotspot.\n- Right-click a craftspace in the sidebar to hide it. It also leaves Home, with its projects. Hover the empty space under the list to show hidden craftspaces again. Useful to hide client projects that are not active anymore.\n- Creating and importing a project are one New project button, on Home and in every craftspace. Empty craftspaces, scenes, overlays and skin components show an arrow to where you add the first one.\n- Live font preview as you hover over different fonts",
+          "images": []
+        },
+        {
+          "id": "0.3.6/smaller-changes",
+          "title": "Smaller changes",
+          "badge": "New",
+          "kind": "feature",
+          "body": "- Menus and dropdowns have a lighter, consistent look.\n- Tooltips are the app's own everywhere, instead of the browser's.\n- Settings and Preferences explain each option when you hover its label, and their rows and fields share one height.\n- Show numbers in Preferences turns the panorama, hotspot and CMS row numbers on or off.\n- Callout origin and skin alignment use a nine-way picker.\n- The back arrow in the editor returns to the craftspace you opened the project from.\n- The project menu is shorter: Duplicate Project, Create Backup with Media, Move to Craftspace and Delete Project.\n- Move to Craftspace works again for projects with grouped hotspots (fixed), and the Move and Delete dialogs have a flat look.\n- Auto Floor and Fit Corners switches show their track again (fixed).\n- Dividers keep the same thickness when the app is zoomed (fixed).",
+          "images": []
+        }
+      ]
+    },
+    {
       "version": "0.3.5",
       "date": "2026-11-24",
       "cards": [

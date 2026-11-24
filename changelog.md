@@ -1,5 +1,55 @@
 # Changelog
 
+## 0.3.7
+
+### Presets you can read at a glance
+
+The preset chips under Style now look like the field labels. A preset that sets values of what you are editing has an orange background, and one that overrides them has a red one. The preset you are editing is solid blue, with a small Editing above its name. Click it again to go back to editing the hotspot itself.
+
+- When the preset you are editing is also used by other hotspots, a line says "Also changes 3 hotspots". Hover it to see which ones.
+- Reset hotspot values moved into the ⋮ menu.
+
+### Turn your values into a preset
+
+Open + Preset and choose New preset from this hotspot to turn the values you set on a hotspot into a preset. The hotspot is emptied and the new preset takes over. To add them to a preset you already have, open that chip's menu and choose Move hotspot values here.
+
+- The + Preset menu has the same look as Add action.
+
+### Reorder presets by priority
+
+Drag a preset chip to change its priority. While you drag, the chips turn into numbered slots, 1 being the strongest. When you drop, every chip slides to its new place.
+
+- Dropping a preset on the last slot now puts it last (fixed).
+
+### Presets on skin components
+
+Skin components work with presets the same way: the same chips and Editing label, New preset from this component, Move component values here, and numbered reordering. A preset you create by typing a name starts empty, as it does for hotspots.
+
+## 0.3.6
+
+### Cleaner UI
+
+- **Hotspot size** moved from Appearance into Transform.
+- Strokes, Inner shadow, Drop shadow and Backdrop filters, the things you add with +, are always the last rows of Appearance.
+- Sections are reordered: Appearance, Animation, Attached, Transform, Mask, Accessibility.
+- Callout, Tooltip and Radar now sit together in one Attached section. Add each with +, and once added all its settings show. Mask is greyed out while you edit a preset, since a mask belongs to one hotspot.
+- Right-click a craftspace in the sidebar to hide it. It also leaves Home, with its projects. Hover the empty space under the list to show hidden craftspaces again. Useful to hide client projects that are not active anymore.
+- Creating and importing a project are one New project button, on Home and in every craftspace. Empty craftspaces, scenes, overlays and skin components show an arrow to where you add the first one.
+- Live font preview as you hover over different fonts
+
+### Smaller changes
+
+- Menus and dropdowns have a lighter, consistent look.
+- Tooltips are the app's own everywhere, instead of the browser's.
+- Settings and Preferences explain each option when you hover its label, and their rows and fields share one height.
+- Show numbers in Preferences turns the panorama, hotspot and CMS row numbers on or off.
+- Callout origin and skin alignment use a nine-way picker.
+- The back arrow in the editor returns to the craftspace you opened the project from.
+- The project menu is shorter: Duplicate Project, Create Backup with Media, Move to Craftspace and Delete Project.
+- Move to Craftspace works again for projects with grouped hotspots (fixed), and the Move and Delete dialogs have a flat look.
+- Auto Floor and Fit Corners switches show their track again (fixed).
+- Dividers keep the same thickness when the app is zoomed (fixed).
+
 ## 0.3.5
 
 ### Redesigned ACTIONS!
